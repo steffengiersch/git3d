@@ -88,10 +88,13 @@ def recursive_walk_repo(repo, relative_path, current):
                 sum_size_in_bytes += size_in_bytes
                 sum_number_of_files += number_of_files
                 sum_author_list = merge_author_lists(sum_author_list, author_list)
-        folder_descriptor['criticality'] = (sum_criticality / sum_number_of_files) if sum_number_of_files > 0 else 0
+        normalized_author_list = normalize_author_list(author_list=sum_author_list, number_of_files=sum_number_of_files)
+        max_knowledge = reduce(lambda c, a: a['knowledge'] if a['knowledge'] > c else c, normalized_author_list, 0)
+        criticality = 1 - max_knowledge
+        folder_descriptor['criticality'] = criticality
         folder_descriptor['sizeInBytes'] = sum_size_in_bytes
         folder_descriptor['number_of_changes'] = sum_number_of_changes
-        folder_descriptor['contributors'] = normalize_author_list(author_list=sum_author_list, number_of_files=sum_number_of_files)
+        folder_descriptor['contributors'] = normalized_author_list
         current['children'].append(folder_descriptor)
         return (sum_number_of_changes, sum_criticality, sum_size_in_bytes, sum_author_list, sum_number_of_files)
 

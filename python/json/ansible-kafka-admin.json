@@ -701,7 +701,7 @@
                   "criticality": 0.9565217391304348
                 }
               ],
-              "criticality": 0.9565217391304349,
+              "criticality": 0.9565217391304348,
               "sizeInBytes": 3769,
               "number_of_changes": 3,
               "contributors": [
@@ -844,7 +844,7 @@
                   "criticality": 0.95
                 }
               ],
-              "criticality": 0.9499999999999998,
+              "criticality": 0.95,
               "sizeInBytes": 2739,
               "number_of_changes": 3,
               "contributors": [
@@ -958,7 +958,7 @@
                   "criticality": 0.972972972972973
                 }
               ],
-              "criticality": 0.9729729729729731,
+              "criticality": 0.972972972972973,
               "sizeInBytes": 2215,
               "number_of_changes": 3,
               "contributors": [
@@ -1044,7 +1044,7 @@
               "criticality": 0.975
             }
           ],
-          "criticality": 0.959840873482178,
+          "criticality": 0.9751126126126126,
           "sizeInBytes": 16296,
           "number_of_changes": 23,
           "contributors": [
@@ -1387,7 +1387,7 @@
               "criticality": 0.9230769230769231
             }
           ],
-          "criticality": 0.9111502076654467,
+          "criticality": 0.9291889466508553,
           "sizeInBytes": 143941,
           "number_of_changes": 99,
           "contributors": [
@@ -1714,7 +1714,7 @@
                       "criticality": 0.967741935483871
                     }
                   ],
-                  "criticality": 0.9350203860796061,
+                  "criticality": 0.9474160206718346,
                   "sizeInBytes": 98785,
                   "number_of_changes": 76,
                   "contributors": [
@@ -1869,7 +1869,7 @@
                           "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.6666666666666666,
+                      "criticality": 0.6666666666666667,
                       "sizeInBytes": 4214,
                       "number_of_changes": 17,
                       "contributors": [
@@ -1996,7 +1996,7 @@
                           "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.6666666666666669,
+                      "criticality": 0.6666666666666667,
                       "sizeInBytes": 20288,
                       "number_of_changes": 37,
                       "contributors": [
@@ -2180,7 +2180,7 @@
                           "criticality": 0.9705882352941176
                         }
                       ],
-                      "criticality": 0.8186274509803922,
+                      "criticality": 0.8333333333333334,
                       "sizeInBytes": 4551,
                       "number_of_changes": 32,
                       "contributors": [
@@ -2271,7 +2271,7 @@
                           "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.6666666666666666,
+                      "criticality": 0.6666666666666667,
                       "sizeInBytes": 4332,
                       "number_of_changes": 21,
                       "contributors": [
@@ -2452,7 +2452,7 @@
                               "criticality": 0.6666666666666667
                             }
                           ],
-                          "criticality": 0.6666666666666666,
+                          "criticality": 0.6666666666666667,
                           "sizeInBytes": 4031,
                           "number_of_changes": 20,
                           "contributors": [
@@ -2545,7 +2545,7 @@
                           "criticality": 0.9705882352941176
                         }
                       ],
-                      "criticality": 0.7674994729074426,
+                      "criticality": 0.7777777777777778,
                       "sizeInBytes": 8604,
                       "number_of_changes": 61,
                       "contributors": [
@@ -2618,7 +2618,7 @@
                           "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.6666666666666666,
+                      "criticality": 0.6666666666666667,
                       "sizeInBytes": 3897,
                       "number_of_changes": 21,
                       "contributors": [
@@ -2661,7 +2661,7 @@
                       "criticality": 0.967741935483871
                     }
                   ],
-                  "criticality": 0.7405856126872465,
+                  "criticality": 0.7479674796747968,
                   "sizeInBytes": 71627,
                   "number_of_changes": 219,
                   "contributors": [
@@ -2690,7 +2690,7 @@
                   "criticality": 0.967741935483871
                 }
               ],
-              "criticality": 0.7899087200536549,
+              "criticality": 0.7998823366555925,
               "sizeInBytes": 189210,
               "number_of_changes": 325,
               "contributors": [
@@ -2801,7 +2801,7 @@
                       "criticality": 0.75
                     }
                   ],
-                  "criticality": 0.85,
+                  "criticality": 0.875,
                   "sizeInBytes": 4471,
                   "number_of_changes": 3,
                   "contributors": [
@@ -2873,7 +2873,7 @@
                       "type": "folder",
                       "name": "zk",
                       "children": [],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
@@ -2882,7 +2882,7 @@
                       "type": "folder",
                       "name": "keystore",
                       "children": [],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
@@ -2895,13 +2895,13 @@
                           "type": "folder",
                           "name": "newcerts",
                           "children": [],
-                          "criticality": 0,
+                          "criticality": 1,
                           "sizeInBytes": 0,
                           "number_of_changes": 0,
                           "contributors": []
                         }
                       ],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
@@ -2910,7 +2910,7 @@
                       "type": "folder",
                       "name": "server",
                       "children": [],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
@@ -2923,13 +2923,13 @@
                           "type": "folder",
                           "name": "newcerts",
                           "children": [],
-                          "criticality": 0,
+                          "criticality": 1,
                           "sizeInBytes": 0,
                           "number_of_changes": 0,
                           "contributors": []
                         }
                       ],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
@@ -2938,13 +2938,13 @@
                       "type": "folder",
                       "name": "client",
                       "children": [],
-                      "criticality": 0,
+                      "criticality": 1,
                       "sizeInBytes": 0,
                       "number_of_changes": 0,
                       "contributors": []
                     }
                   ],
-                  "criticality": 0,
+                  "criticality": 1,
                   "sizeInBytes": 0,
                   "number_of_changes": 0,
                   "contributors": []
@@ -2964,7 +2964,7 @@
                   "criticality": 0.95
                 }
               ],
-              "criticality": 0.8906250000000001,
+              "criticality": 0.9291666666666667,
               "sizeInBytes": 13029,
               "number_of_changes": 13,
               "contributors": [
@@ -2983,7 +2983,7 @@
               ]
             }
           ],
-          "criticality": 0.802498255046948,
+          "criticality": 0.8160428779069768,
           "sizeInBytes": 202239,
           "number_of_changes": 338,
           "contributors": [
@@ -3022,7 +3022,7 @@
           ]
         }
       ],
-      "criticality": 0.8382787347218639,
+      "criticality": 0.8504835980194394,
       "sizeInBytes": 452209,
       "number_of_changes": 627,
       "contributors": [
