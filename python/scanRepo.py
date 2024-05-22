@@ -3,15 +3,14 @@ import os
 
 
 def is_file_in_git(git, file_path: str):
-    """Check if file is tracked by git."""
     try:
-        # If git returns a filename then file is tracked
         return git.ls_files(file_path) == file_path
     except:
         return False
 
 
-def walk_through_repo(git):
+def walk_through_repo(repo):
+    git = repo.git
     repo_path = git.working_dir
     for dirpath, dirnames, filenames in os.walk(repo_path):
         for file_name in filenames:
@@ -23,5 +22,4 @@ def walk_through_repo(git):
 
 if '__main__' == __name__:
     repo = Repo(os.getenv('REPO_PATH'))
-    git = repo.git
-    walk_through_repo(git)
+    walk_through_repo(repo)
