@@ -1,0 +1,31 @@
+{
+    "repository": {
+        "name": "My great repository",
+        "url": "https://my.great/repository.git"
+    },
+    "contributer": [
+        {
+            "id": "lorem",
+            "name": "Eckart",
+        }
+    ],
+    "filetree": {
+        "type": "folder/file",
+        "name": "ipsum",
+        "extension": "xslt", // Only present, when type == file
+        "created": "2024-05-20",
+        "lastModified": "2024-05-22",
+        "changes": 5, // [1..]
+        "sizeInByte": 20, // [0..]
+        "criticality": 0.2, // [0..1] => 0 is no problem, 1 is all problems
+        "contributer": [
+            {
+                "id": "lorem",
+                "knowledge": 0.5 // [0..1] => 0 is no knowledge, 1 is high proficiency
+            }
+        ],
+        "children": [
+            {} //...
+        ]
+    }
+}
