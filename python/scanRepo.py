@@ -110,7 +110,7 @@ def start(repo_path, out_file_path):
             'path': repo_path,
         },
         'contributors': reduce(lambda gal, a: [*gal, {'name': a}],global_author_list, []),
-        'filetree': _root['children']
+        'filetree': _root['children'][0]
     }
     with open(out_file_path, 'w') as f:
         json.dump(root, f)
