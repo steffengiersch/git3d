@@ -360,3 +360,7 @@ sysinfo.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,jetbrains,python
 .DS_Store
+
+**/.venv/**
+.DS_Store
+**/.idea/**
