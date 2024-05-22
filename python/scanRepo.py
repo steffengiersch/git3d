@@ -25,7 +25,7 @@ def recursive_walk_repo(repo, relative_path, current):
     git = repo.git
     repo_path = git.working_dir
     abs_path = os.path.join(repo_path, relative_path)
-    if os.path.isfile(abs_path):
+    if os.path.isfile(abs_path) and is_file_in_git(git, relative_path):
         commits_touching_path = list(repo.iter_commits(paths=relative_path))
         number_of_changes = len(commits_touching_path)
         author_list = extract_author_list(commits_touching_path)
@@ -56,35 +56,24 @@ def recursive_walk_repo(repo, relative_path, current):
             'children': [],
         }
         for entry in os.listdir(str(abs_path)):
-            (criticality, number_of_changes, size_in_bytes) = recursive_walk_repo(repo=repo, relative_path=os.path.join(relative_path, entry), current=folder_descriptor)
-            sum_number_of_changes += number_of_changes
-            sum_criticality += criticality
-            sum_size_in_bytes += size_in_bytes
+            abs_entry_path = os.path.join(str(abs_path), entry)
+            if os.path.isfile(abs_entry_path) or not entry.startswith('.'):
+                rel_entry_path = os.path.join(relative_path, entry)
+                (criticality, number_of_changes, size_in_bytes) = recursive_walk_repo(repo=repo, relative_path=rel_entry_path, current=folder_descriptor)
+                sum_number_of_changes += number_of_changes
+                sum_criticality += criticality
+                sum_size_in_bytes += size_in_bytes
         folder_descriptor['criticality'] = sum_criticality
-        folder_descriptor['children'].append(folder_descriptor)
         folder_descriptor['sizeInBytes'] = sum_size_in_bytes
         folder_descriptor['number_of_changes'] = sum_number_of_changes
-
-
-
-
-def walk_through_repo(repo):
-    git = repo.git
-    repo_path = git.working_dir
-    for dirpath, dirnames, filenames in os.walk(repo_path):
-        for file_name in filenames:
-            full_path = os.path.join(dirpath, file_name)
-            relative_path = os.path.relpath(str(full_path), repo_path)
-            if is_file_in_git(git, relative_path):
-                print(relative_path)
-                author_list = extract_author_list(repo, relative_path)
-                print(author_list)
+        current['children'].append(folder_descriptor)
+        return (sum_number_of_changes, sum_criticality, sum_size_in_bytes)
 
 
 def start(repo_path):
     repo = Repo(repo_path)
     root = {'children': []}
-    recursive_walk_repo(repo=repo, relative_path=repo_path, current=root)
+    recursive_walk_repo(repo=repo, relative_path="", current=root)
     print(root)
 
 
