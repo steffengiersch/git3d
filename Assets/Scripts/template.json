@@ -5,8 +5,7 @@
     },
     "contributer": [
         {
-            "id": "lorem",
-            "name": "Eckart",
+            "name": "Eckart"
         }
     ],
     "filetree": {
@@ -20,7 +19,7 @@
         "criticality": 0.2, // [0..1] => 0 is no problem, 1 is all problems
         "contributer": [
             {
-                "id": "lorem",
+                "name": "Eckart",
                 "knowledge": 0.5 // [0..1] => 0 is no knowledge, 1 is high proficiency
             }
         ],

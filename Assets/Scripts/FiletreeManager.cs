@@ -13,12 +13,25 @@ public class FiletreeManager : MonoBehaviour
     void Start()
     {
         ParseJson();
+        GenerateColorsForContributors();
         GenerateNodes(_root.filetree.AsChild(), null, 0, 0);
+    }
+
+    private void GenerateColorsForContributors()
+    {
+        var colors = GenerateDistinctColors(_root.contributer.Count);
+        Debug.Log("Generated colors");
+        colors.ForEach(color => Debug.Log($"{color}"));
+        Debug.Log($"Blue: {Color.blue}");
+        for (int i = 0; i < _root.contributer.Count; i++)
+        {
+            _root.contributer[i].color = colors[i];
+        }
     }
 
     private int GenerateNodes(Child node, NodeController parentNode, int depth, int breadth)
     {
-        var childNode = InstantiateNode(depth, breadth, node.name);
+        var childNode = InstantiateNode(depth, breadth, node);
         if (parentNode != null) InstantiateLine(parentNode, childNode);
 
         if (node.children == null || node.children.Count == 0) return breadth + 1;
@@ -32,11 +45,14 @@ public class FiletreeManager : MonoBehaviour
         return currentBreadth;
     }
 
-    private NodeController InstantiateNode(int depth, int breadth, string instanceName)
+    private NodeController InstantiateNode(int depth, int breadth, Child node)
     {
         var instance = Instantiate(nodePrefab, new Vector3(2f * depth, 0f, 2f * breadth), Quaternion.identity, transform);
-        instance.name = instanceName;
-        instance.nodeName = instanceName;
+        instance.name = node.name;
+        instance.nodeName = node.name;
+        instance.criticality = node.criticality;
+        instance.contributers = node.contributer;
+        instance.contributers.ForEach(contributer => contributer.color = _root.contributer.Find(c => contributer.name.Equals(c.name)).color);
         nodes.Add(instance);
         return instance;
     }
@@ -56,6 +72,22 @@ public class FiletreeManager : MonoBehaviour
         Debug.Log("Finished parsing Json");
     }
     
+    List<Color> GenerateDistinctColors(int numColors)
+    {
+        List<Color> colors = new List<Color>();
+        float hueStep = 1.0f / numColors;
+
+        for (int i = 0; i < numColors; i++)
+        {
+            float hue = i * hueStep;
+            Color color = Color.HSVToRGB(hue, 1.0f, 1.0f);
+            colors.Add(color);
+        }
+
+        return colors;
+    }
+
+
     [System.Serializable]
     public class Child
     {
@@ -65,7 +97,7 @@ public class FiletreeManager : MonoBehaviour
         public string lastModified;
         public int changes;
         public int sizeInByte;
-        public double criticality;
+        public float criticality;
         public List<Contributer> contributer;
         public List<Child> children;
         public string extension;
@@ -74,9 +106,9 @@ public class FiletreeManager : MonoBehaviour
     [System.Serializable]
     public class Contributer
     {
-        public string id;
         public string name;
-        public double knowledge;
+        public float knowledge;
+        public Color color;
     }
 
     [System.Serializable]
@@ -88,10 +120,9 @@ public class FiletreeManager : MonoBehaviour
         public string lastModified;
         public int changes;
         public int sizeInByte;
-        public double criticality;
+        public float criticality;
         public List<Contributer> contributer;
         public List<Child> children;
-        
         public Child AsChild()
         {
             return new Child()
@@ -123,4 +154,11 @@ public class FiletreeManager : MonoBehaviour
         public List<Contributer> contributer;
         public Filetree filetree;
     }
+
+
+
+
+
+
+
 }
