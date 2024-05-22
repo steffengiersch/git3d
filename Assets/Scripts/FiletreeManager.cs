@@ -10,7 +10,7 @@ public class FiletreeManager : MonoBehaviour
     private List<NodeController> nodes = new();
     private List<LineRenderer> lines = new();
     
-    public Action<List<Contributer>> ContributorsChanged;
+    public Action<List<Contributor>> ContributorsChanged;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,18 +19,18 @@ public class FiletreeManager : MonoBehaviour
         GenerateColorsForContributors();
         GenerateNodes(_root.filetree.AsChild(), null, 0, 0);
 
-        ContributorsChanged?.Invoke(_root.contributer);
+        ContributorsChanged?.Invoke(_root.contributors);
     }
 
     private void GenerateColorsForContributors()
     {
-        var colors = GenerateDistinctColors(_root.contributer.Count);
+        var colors = GenerateDistinctColors(_root.contributors.Count);
         Debug.Log("Generated colors");
         colors.ForEach(color => Debug.Log($"{color}"));
         Debug.Log($"Blue: {Color.blue}");
-        for (int i = 0; i < _root.contributer.Count; i++)
+        for (int i = 0; i < _root.contributors.Count; i++)
         {
-            _root.contributer[i].color = colors[i];
+            _root.contributors[i].color = colors[i];
         }
     }
 
@@ -52,12 +52,12 @@ public class FiletreeManager : MonoBehaviour
 
     private NodeController InstantiateNode(int depth, int breadth, Child node)
     {
-        var instance = Instantiate(nodePrefab, new Vector3(2f * depth, 0f, 2f * breadth), Quaternion.identity, transform);
+        var instance = Instantiate(nodePrefab, new Vector3(10f * depth, 0f, 4f * breadth), Quaternion.identity, transform);
         instance.name = node.name;
         instance.nodeName = node.name;
         instance.criticality = node.criticality;
-        instance.contributers = node.contributer;
-        instance.contributers.ForEach(contributer => contributer.color = _root.contributer.Find(c => contributer.name.Equals(c.name)).color);
+        instance.contributors = node.contributors;
+        instance.contributors.ForEach(contributer => contributer.color = _root.contributors.Find(c => contributer.name.Equals(c.name)).color);
         nodes.Add(instance);
         return instance;
     }
@@ -72,7 +72,7 @@ public class FiletreeManager : MonoBehaviour
     private void ParseJson()
     {
         Debug.Log("Parsing Json");
-        string jsonContent = System.IO.File.ReadAllText(Application.dataPath + "/Ressources/dummy.json");
+        string jsonContent = System.IO.File.ReadAllText(Application.dataPath + "/Ressources/ansible-kafka-admin.json");
         _root = JsonUtility.FromJson<Root>(jsonContent);
         Debug.Log("Finished parsing Json");
     }
@@ -92,24 +92,22 @@ public class FiletreeManager : MonoBehaviour
         return colors;
     }
 
-
     [System.Serializable]
     public class Child
     {
         public string type;
         public string name;
-        public string created;
-        public string lastModified;
-        public int changes;
-        public int sizeInByte;
-        public float criticality;
-        public List<Contributer> contributer;
-        public List<Child> children;
         public string extension;
+        public int changes;
+        public int sizeInBytes;
+        public List<Contributor> contributors;
+        public float criticality;
+        public List<Child> children;
+        public int? number_of_changes;
     }
 
     [System.Serializable]
-    public class Contributer
+    public class Contributor
     {
         public string name;
         public float knowledge;
@@ -121,25 +119,21 @@ public class FiletreeManager : MonoBehaviour
     {
         public string type;
         public string name;
-        public string created;
-        public string lastModified;
-        public int changes;
-        public int sizeInByte;
-        public float criticality;
-        public List<Contributer> contributer;
         public List<Child> children;
+        public float criticality;
+        public int sizeInBytes;
+        public int number_of_changes;
+        public List<Contributor> contributors;
+
         public Child AsChild()
         {
             return new Child()
             {
                 type = type,
                 name = name,
-                created = created,
-                lastModified = lastModified,
-                changes = changes,
-                sizeInByte = sizeInByte,
+                sizeInBytes = sizeInBytes,
                 criticality = criticality,
-                contributer = contributer,
+                contributors = contributors,
                 children = children
             };
         }
@@ -150,20 +144,14 @@ public class FiletreeManager : MonoBehaviour
     {
         public string name;
         public string url;
+        public string path;
     }
 
     [System.Serializable]
     public class Root
     {
         public Repository repository;
-        public List<Contributer> contributer;
+        public List<Contributor> contributors;
         public Filetree filetree;
     }
-
-
-
-
-
-
-
 }

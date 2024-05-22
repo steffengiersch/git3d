@@ -1,1 +1,2967 @@
-{"repository": {"name": "git3d", "url": "git@github.com:steffengiersch/git3d.git", "path": "/Users/oliverwidder/dev/github/git3d"}, "contributors": [{"name": "Steffen Giersch"}, {"name": "Oliver Widder"}], "filetree": {"type": "folder", "name": ".", "children": [{"type": "file", "name": ".DS_Store", "extension": "", "changes": 1, "sizeInBytes": 8196, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "python", "children": [{"type": "file", "name": "scanRepo.py", "extension": ".py", "changes": 19, "sizeInBytes": 5234, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "json", "children": [{"type": "file", "name": "git3d.json", "extension": ".json", "changes": 5, "sizeInBytes": 97982, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ansible-kafka-admin.json", "extension": ".json", "changes": 5, "sizeInBytes": 105855, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 203837, "number_of_changes": 10, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}]}], "criticality": 0.0, "sizeInBytes": 209071, "number_of_changes": 29, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}]}, {"type": "folder", "name": "ProjectSettings", "children": [{"type": "file", "name": "ShaderGraphSettings.asset", "extension": ".asset", "changes": 2, "sizeInBytes": 524, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ProjectSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 25004, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "InputManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 9731, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TimeManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 202, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "MultiplayerManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 157, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "VersionControlSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 188, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "SceneTemplateSettings.json", "extension": ".json", "changes": 1, "sizeInBytes": 3535, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "GraphicsSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 2568, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "XRSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 158, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PresetManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 146, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "UnityConnectSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 943, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EditorSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1518, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EditorBuildSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 407, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ClusterInputManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 114, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TagManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 657, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "NavMeshAreas.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1308, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Physics2DSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 2028, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "URPProjectSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 410, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PackageManagerSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1003, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "AudioManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 413, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "VFXManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 308, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "DynamicsManager.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1254, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "QualitySettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 3662, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "MemorySettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1192, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ProjectVersion.txt", "extension": ".txt", "changes": 1, "sizeInBytes": 83, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 57513, "number_of_changes": 26, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": ".gitignore", "extension": "", "changes": 3, "sizeInBytes": 7370, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}, {"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Packages", "children": [{"type": "file", "name": "manifest.json", "extension": ".json", "changes": 1, "sizeInBytes": 1868, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "packages-lock.json", "extension": ".json", "changes": 1, "sizeInBytes": 12244, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 14112, "number_of_changes": 2, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "Assets", "children": [{"type": "folder", "name": "TextMesh Pro", "children": [{"type": "file", "name": "Fonts.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Shaders.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Resources", "children": [{"type": "file", "name": "TMP Settings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1852, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Fonts & Materials.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 191, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Sprite Assets.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 191, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LineBreaking Following Characters.txt.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Sprite Assets", "children": [{"type": "file", "name": "MixedIndexTest.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 107262, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 13441, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "InlineIcons.png.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 127592, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "InlineIcons.png", "extension": ".png", "changes": 1, "sizeInBytes": 2131759, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "MixedIndexTest.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 2380422, "number_of_changes": 6, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "LineBreaking Leading Characters.txt.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Style Sheets", "children": [{"type": "file", "name": "Default Style Sheet.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 5539, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Default Style Sheet.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 181, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 5720, "number_of_changes": 2, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "Fonts & Materials", "children": [{"type": "file", "name": "LiberationSans SDF - Fallback.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF - Fallback.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 9342, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF - Outline.mat.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF - Drop Shadow.mat.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF - Drop Shadow.mat", "extension": ".mat", "changes": 1, "sizeInBytes": 2975, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 2256862, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans SDF - Outline.mat", "extension": ".mat", "changes": 1, "sizeInBytes": 2889, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 2272784, "number_of_changes": 8, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "TMP Settings.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 179, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Style Sheets.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 191, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LineBreaking Following Characters.txt", "extension": ".txt", "changes": 1, "sizeInBytes": 269, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LineBreaking Leading Characters.txt", "extension": ".txt", "changes": 1, "sizeInBytes": 95, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 4662252, "number_of_changes": 25, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Resources.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Shaders", "children": [{"type": "file", "name": "TMP_SDF-Mobile Overlay.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 8081, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Surface-Mobile.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile Masking.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 8273, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Surface.cginc.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap-Mobile.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-HDRP UNLIT.shadergraph.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 285, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Sprite.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Properties.cginc", "extension": ".cginc", "changes": 1, "sizeInBytes": 2707, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF SSD.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 12438, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile-2-Pass.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-URP Unlit.shadergraph.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 285, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF Overlay.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 11054, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Surface.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF Overlay.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-HDRP UNLIT.shadergraph", "extension": ".shadergraph", "changes": 1, "sizeInBytes": 279909, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap-Custom-Atlas.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap-Mobile.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 4071, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Surface.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 4353, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Mobile.cginc", "extension": ".cginc", "changes": 1, "sizeInBytes": 5453, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 3839, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile-2-Pass.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 11795, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Sprite.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 3446, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Properties.cginc.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF SSD.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-HDRP LIT.shadergraph", "extension": ".shadergraph", "changes": 1, "sizeInBytes": 287427, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile Masking.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Surface.cginc", "extension": ".cginc", "changes": 1, "sizeInBytes": 3515, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 8074, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-URP Lit.shadergraph", "extension": ".shadergraph", "changes": 1, "sizeInBytes": 283866, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "SDFFunctions.hlsl", "extension": ".hlsl", "changes": 1, "sizeInBytes": 6021, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Surface-Mobile.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 3523, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-HDRP LIT.shadergraph.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 285, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile Overlay.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro_Mobile.cginc.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile SSD.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 3064, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro.cginc", "extension": ".cginc", "changes": 1, "sizeInBytes": 2277, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-URP Unlit.shadergraph", "extension": ".shadergraph", "changes": 1, "sizeInBytes": 277012, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-Mobile SSD.shader.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 204, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_Bitmap-Custom-Atlas.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 3836, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF-URP Lit.shadergraph.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 285, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMP_SDF.shader", "extension": ".shader", "changes": 1, "sizeInBytes": 11027, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "SDFFunctions.hlsl.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 230, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TMPro.cginc.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 215, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 1250114, "number_of_changes": 46, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Sprites.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Sprites", "children": [{"type": "file", "name": "EmojiOne.json", "extension": ".json", "changes": 1, "sizeInBytes": 3966, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne.json.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 177, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne.png.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 9784, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne.png", "extension": ".png", "changes": 1, "sizeInBytes": 112319, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne Attribution.txt", "extension": ".txt", "changes": 1, "sizeInBytes": 185, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EmojiOne Attribution.txt.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 158, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 126589, "number_of_changes": 6, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "Fonts", "children": [{"type": "file", "name": "LiberationSans.ttf.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 414, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans.ttf", "extension": ".ttf", "changes": 1, "sizeInBytes": 350200, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans - OFL.txt.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 177, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "LiberationSans - OFL.txt", "extension": ".txt", "changes": 1, "sizeInBytes": 4469, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 355260, "number_of_changes": 4, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}], "criticality": 0.0, "sizeInBytes": 6394903, "number_of_changes": 85, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Readme.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 1144, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Settings", "children": [{"type": "file", "name": "SampleSceneProfile.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 182, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "DefaultVolumeProfile.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 23987, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PC_RPAsset.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 4364, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Mobile_Renderer.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "UniversalRenderPipelineGlobalSettings.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 14197, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "UniversalRenderPipelineGlobalSettings.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PC_RPAsset.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Mobile_RPAsset.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 4345, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "SampleSceneProfile.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 3703, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Mobile_RPAsset.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "DefaultVolumeProfile.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Mobile_Renderer.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 2189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PC_Renderer.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 189, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "PC_Renderer.asset", "extension": ".asset", "changes": 1, "sizeInBytes": 3439, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 57540, "number_of_changes": 14, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "TextMesh Pro.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Scenes", "children": [{"type": "file", "name": "SampleScene.unity", "extension": ".unity", "changes": 4, "sizeInBytes": 41382, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "SampleScene.unity.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 155, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 41537, "number_of_changes": 5, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "Materials", "children": [{"type": "file", "name": "NodeMaterial.mat.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 188, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EdgeMaterial.mat.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 188, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EdgeMaterial.mat", "extension": ".mat", "changes": 1, "sizeInBytes": 3762, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "NodeMaterial.mat", "extension": ".mat", "changes": 1, "sizeInBytes": 3700, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 7838, "number_of_changes": 4, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": ".DS_Store", "extension": "", "changes": 1, "sizeInBytes": 6148, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Prefabs", "children": [{"type": "file", "name": "UIContributor.prefab", "extension": ".prefab", "changes": 1, "sizeInBytes": 7585, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Node.prefab", "extension": ".prefab", "changes": 2, "sizeInBytes": 4592, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Edge.prefab", "extension": ".prefab", "changes": 2, "sizeInBytes": 4005, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Node.prefab.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 154, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Edge.prefab.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 154, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "UIContributor.prefab.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 154, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 16644, "number_of_changes": 8, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Readme.asset.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 182, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "InputSystem_Actions.inputactions.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 376, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Scripts.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "InputSystem_Actions.inputactions", "extension": ".inputactions", "changes": 1, "sizeInBytes": 41005, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Materials.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Prefabs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Scripts", "children": [{"type": "file", "name": "UIControbutor.cs", "extension": ".cs", "changes": 1, "sizeInBytes": 519, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "UIControbutor.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 59, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "template.json.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 158, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "template.json", "extension": ".json", "changes": 2, "sizeInBytes": 791, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EdgeController.cs", "extension": ".cs", "changes": 1, "sizeInBytes": 1076, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "NodeController.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 59, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "NodeController.cs", "extension": ".cs", "changes": 3, "sizeInBytes": 1720, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ContributorScrollViewController.cs", "extension": ".cs", "changes": 1, "sizeInBytes": 1144, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ContributorScrollViewController.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 59, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "EdgeController.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 59, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "FiletreeManager.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 59, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "FiletreeManager.cs", "extension": ".cs", "changes": 3, "sizeInBytes": 4892, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 10595, "number_of_changes": 17, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "TutorialInfo", "children": [{"type": "file", "name": ".DS_Store", "extension": "", "changes": 1, "sizeInBytes": 6148, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Layout.wlt", "extension": ".wlt", "changes": 1, "sizeInBytes": 15479, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Scripts.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 193, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Layout.wlt.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 176, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Icons", "children": [{"type": "file", "name": "URP.png", "extension": ".png", "changes": 1, "sizeInBytes": 24069, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "URP.png.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 3156, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 27225, "number_of_changes": 2, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "folder", "name": "Scripts", "children": [{"type": "file", "name": "Editor.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 193, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Readme.cs", "extension": ".cs", "changes": 1, "sizeInBytes": 302, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Readme.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 317, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Editor", "children": [{"type": "file", "name": "ReadmeEditor.cs.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 264, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ReadmeEditor.cs", "extension": ".cs", "changes": 1, "sizeInBytes": 6677, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 6941, "number_of_changes": 2, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}], "criticality": 0.0, "sizeInBytes": 7753, "number_of_changes": 5, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Icons.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 193, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.0, "sizeInBytes": 57167, "number_of_changes": 12, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}]}, {"type": "file", "name": "Ressources.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "TutorialInfo.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "folder", "name": "Ressources", "children": [{"type": "file", "name": "dummy.json", "extension": ".json", "changes": 3, "sizeInBytes": 17636, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "dummy.json.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 158, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "git3d.json", "extension": ".json", "changes": 1, "sizeInBytes": 40094, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "ansible-kafka-admin.json", "extension": ".json", "changes": 1, "sizeInBytes": 45211, "contributors": [{"name": "Oliver Widder", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.5, "sizeInBytes": 103099, "number_of_changes": 6, "contributors": [{"name": "Steffen Giersch", "knowledge": 0.5}, {"name": "Oliver Widder", "knowledge": 0.5}]}, {"type": "file", "name": "Settings.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}, {"type": "file", "name": "Scenes.meta", "extension": ".meta", "changes": 1, "sizeInBytes": 172, "contributors": [{"name": "Steffen Giersch", "knowledge": 1.0}], "criticality": 0.0}], "criticality": 0.013157894736842146, "sizeInBytes": 6739554, "number_of_changes": 164, "contributors": [{"name": "Steffen Giersch", "knowledge": 0.9868421052631579}, {"name": "Oliver Widder", "knowledge": 0.013157894736842105}]}], "criticality": 0.02717391304347827, "sizeInBytes": 7035816, "number_of_changes": 225, "contributors": [{"name": "Steffen Giersch", "knowledge": 0.9728260869565217}, {"name": "Oliver Widder", "knowledge": 0.03260869565217391}]}}
+{
+    "repository": {
+        "name": "git3d",
+        "url": "git@github.com:steffengiersch/git3d.git",
+        "path": "/Users/oliverwidder/dev/github/git3d"
+    },
+    "contributors": [
+        {
+            "name": "Steffen Giersch"
+        },
+        {
+            "name": "Oliver Widder"
+        }
+    ],
+    "filetree": {
+        "type": "folder",
+        "name": ".",
+        "children": [
+            {
+                "type": "file",
+                "name": ".DS_Store",
+                "extension": "",
+                "changes": 1,
+                "sizeInBytes": 8196,
+                "contributors": [
+                    {
+                        "name": "Steffen Giersch",
+                        "knowledge": 1.0
+                    }
+                ],
+                "criticality": 0.0
+            },
+            {
+                "type": "folder",
+                "name": "python",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "scanRepo.py",
+                        "extension": ".py",
+                        "changes": 19,
+                        "sizeInBytes": 5234,
+                        "contributors": [
+                            {
+                                "name": "Oliver Widder",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "json",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "git3d.json",
+                                "extension": ".json",
+                                "changes": 5,
+                                "sizeInBytes": 97982,
+                                "contributors": [
+                                    {
+                                        "name": "Oliver Widder",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "ansible-kafka-admin.json",
+                                "extension": ".json",
+                                "changes": 5,
+                                "sizeInBytes": 105855,
+                                "contributors": [
+                                    {
+                                        "name": "Oliver Widder",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 203837,
+                        "number_of_changes": 10,
+                        "contributors": [
+                            {
+                                "name": "Oliver Widder",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    }
+                ],
+                "criticality": 0.0,
+                "sizeInBytes": 209071,
+                "number_of_changes": 29,
+                "contributors": [
+                    {
+                        "name": "Oliver Widder",
+                        "knowledge": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "ProjectSettings",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "ShaderGraphSettings.asset",
+                        "extension": ".asset",
+                        "changes": 2,
+                        "sizeInBytes": 524,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "ProjectSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 25004,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "InputManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 9731,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "TimeManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 202,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "MultiplayerManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 157,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "VersionControlSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 188,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "SceneTemplateSettings.json",
+                        "extension": ".json",
+                        "changes": 1,
+                        "sizeInBytes": 3535,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "GraphicsSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 2568,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "XRSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 158,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "PresetManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 146,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "UnityConnectSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 943,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "EditorSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1518,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "EditorBuildSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 407,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "ClusterInputManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 114,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "TagManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 657,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "NavMeshAreas.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1308,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "Physics2DSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 2028,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "URPProjectSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 410,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "PackageManagerSettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1003,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "AudioManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 413,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "VFXManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 308,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "DynamicsManager.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1254,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "QualitySettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 3662,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "MemorySettings.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1192,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "ProjectVersion.txt",
+                        "extension": ".txt",
+                        "changes": 1,
+                        "sizeInBytes": 83,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    }
+                ],
+                "criticality": 0.0,
+                "sizeInBytes": 57513,
+                "number_of_changes": 26,
+                "contributors": [
+                    {
+                        "name": "Steffen Giersch",
+                        "knowledge": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": ".gitignore",
+                "extension": "",
+                "changes": 3,
+                "sizeInBytes": 7370,
+                "contributors": [
+                    {
+                        "name": "Oliver Widder",
+                        "knowledge": 1.0
+                    },
+                    {
+                        "name": "Steffen Giersch",
+                        "knowledge": 1.0
+                    }
+                ],
+                "criticality": 0.0
+            },
+            {
+                "type": "folder",
+                "name": "Packages",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "manifest.json",
+                        "extension": ".json",
+                        "changes": 1,
+                        "sizeInBytes": 1868,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "packages-lock.json",
+                        "extension": ".json",
+                        "changes": 1,
+                        "sizeInBytes": 12244,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    }
+                ],
+                "criticality": 0.0,
+                "sizeInBytes": 14112,
+                "number_of_changes": 2,
+                "contributors": [
+                    {
+                        "name": "Steffen Giersch",
+                        "knowledge": 1.0
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "Assets",
+                "children": [
+                    {
+                        "type": "folder",
+                        "name": "TextMesh Pro",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "Fonts.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 172,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Shaders.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 172,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Resources",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "TMP Settings.asset",
+                                        "extension": ".asset",
+                                        "changes": 1,
+                                        "sizeInBytes": 1852,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Fonts & Materials.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 191,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Sprite Assets.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 191,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LineBreaking Following Characters.txt.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 179,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "folder",
+                                        "name": "Sprite Assets",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "MixedIndexTest.asset",
+                                                "extension": ".asset",
+                                                "changes": 1,
+                                                "sizeInBytes": 107262,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "EmojiOne.asset",
+                                                "extension": ".asset",
+                                                "changes": 1,
+                                                "sizeInBytes": 13441,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "EmojiOne.asset.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 179,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "InlineIcons.png.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 127592,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "InlineIcons.png",
+                                                "extension": ".png",
+                                                "changes": 1,
+                                                "sizeInBytes": 2131759,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "MixedIndexTest.asset.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 189,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            }
+                                        ],
+                                        "criticality": 0.0,
+                                        "sizeInBytes": 2380422,
+                                        "number_of_changes": 6,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LineBreaking Leading Characters.txt.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 179,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "folder",
+                                        "name": "Style Sheets",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "Default Style Sheet.asset",
+                                                "extension": ".asset",
+                                                "changes": 1,
+                                                "sizeInBytes": 5539,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "Default Style Sheet.asset.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 181,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            }
+                                        ],
+                                        "criticality": 0.0,
+                                        "sizeInBytes": 5720,
+                                        "number_of_changes": 2,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "folder",
+                                        "name": "Fonts & Materials",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Fallback.asset.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 179,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Fallback.asset",
+                                                "extension": ".asset",
+                                                "changes": 1,
+                                                "sizeInBytes": 9342,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Outline.mat.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 179,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Drop Shadow.mat.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 179,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Drop Shadow.mat",
+                                                "extension": ".mat",
+                                                "changes": 1,
+                                                "sizeInBytes": 2975,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF.asset",
+                                                "extension": ".asset",
+                                                "changes": 1,
+                                                "sizeInBytes": 2256862,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF.asset.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 179,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "LiberationSans SDF - Outline.mat",
+                                                "extension": ".mat",
+                                                "changes": 1,
+                                                "sizeInBytes": 2889,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            }
+                                        ],
+                                        "criticality": 0.0,
+                                        "sizeInBytes": 2272784,
+                                        "number_of_changes": 8,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP Settings.asset.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 179,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Style Sheets.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 191,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LineBreaking Following Characters.txt",
+                                        "extension": ".txt",
+                                        "changes": 1,
+                                        "sizeInBytes": 269,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LineBreaking Leading Characters.txt",
+                                        "extension": ".txt",
+                                        "changes": 1,
+                                        "sizeInBytes": 95,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 4662252,
+                                "number_of_changes": 25,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "Resources.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 172,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Shaders",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile Overlay.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 8081,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Surface-Mobile.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile Masking.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 8273,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Surface.cginc.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap-Mobile.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-HDRP UNLIT.shadergraph.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 285,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Sprite.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Properties.cginc",
+                                        "extension": ".cginc",
+                                        "changes": 1,
+                                        "sizeInBytes": 2707,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF SSD.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 12438,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile-2-Pass.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-URP Unlit.shadergraph.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 285,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF Overlay.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 11054,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Surface.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF Overlay.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-HDRP UNLIT.shadergraph",
+                                        "extension": ".shadergraph",
+                                        "changes": 1,
+                                        "sizeInBytes": 279909,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap-Custom-Atlas.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap-Mobile.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 4071,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Surface.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 4353,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Mobile.cginc",
+                                        "extension": ".cginc",
+                                        "changes": 1,
+                                        "sizeInBytes": 5453,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 3839,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile-2-Pass.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 11795,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Sprite.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 3446,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Properties.cginc.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF SSD.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-HDRP LIT.shadergraph",
+                                        "extension": ".shadergraph",
+                                        "changes": 1,
+                                        "sizeInBytes": 287427,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile Masking.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Surface.cginc",
+                                        "extension": ".cginc",
+                                        "changes": 1,
+                                        "sizeInBytes": 3515,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 8074,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-URP Lit.shadergraph",
+                                        "extension": ".shadergraph",
+                                        "changes": 1,
+                                        "sizeInBytes": 283866,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "SDFFunctions.hlsl",
+                                        "extension": ".hlsl",
+                                        "changes": 1,
+                                        "sizeInBytes": 6021,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Surface-Mobile.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 3523,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-HDRP LIT.shadergraph.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 285,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile Overlay.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro_Mobile.cginc.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile SSD.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 3064,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro.cginc",
+                                        "extension": ".cginc",
+                                        "changes": 1,
+                                        "sizeInBytes": 2277,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-URP Unlit.shadergraph",
+                                        "extension": ".shadergraph",
+                                        "changes": 1,
+                                        "sizeInBytes": 277012,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-Mobile SSD.shader.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 204,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_Bitmap-Custom-Atlas.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 3836,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF-URP Lit.shadergraph.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 285,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMP_SDF.shader",
+                                        "extension": ".shader",
+                                        "changes": 1,
+                                        "sizeInBytes": 11027,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "SDFFunctions.hlsl.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 230,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "TMPro.cginc.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 215,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 1250114,
+                                "number_of_changes": 46,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "Sprites.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 172,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Sprites",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne.json",
+                                        "extension": ".json",
+                                        "changes": 1,
+                                        "sizeInBytes": 3966,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne.json.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 177,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne.png.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 9784,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne.png",
+                                        "extension": ".png",
+                                        "changes": 1,
+                                        "sizeInBytes": 112319,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne Attribution.txt",
+                                        "extension": ".txt",
+                                        "changes": 1,
+                                        "sizeInBytes": 185,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "EmojiOne Attribution.txt.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 158,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 126589,
+                                "number_of_changes": 6,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Fonts",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "LiberationSans.ttf.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 414,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LiberationSans.ttf",
+                                        "extension": ".ttf",
+                                        "changes": 1,
+                                        "sizeInBytes": 350200,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LiberationSans - OFL.txt.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 177,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "LiberationSans - OFL.txt",
+                                        "extension": ".txt",
+                                        "changes": 1,
+                                        "sizeInBytes": 4469,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 355260,
+                                "number_of_changes": 4,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 6394903,
+                        "number_of_changes": 85,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Readme.asset",
+                        "extension": ".asset",
+                        "changes": 1,
+                        "sizeInBytes": 1144,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Settings",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "SampleSceneProfile.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 182,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "DefaultVolumeProfile.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 23987,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "PC_RPAsset.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 4364,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Mobile_Renderer.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "UniversalRenderPipelineGlobalSettings.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 14197,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "UniversalRenderPipelineGlobalSettings.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "PC_RPAsset.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Mobile_RPAsset.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 4345,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "SampleSceneProfile.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 3703,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Mobile_RPAsset.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "DefaultVolumeProfile.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Mobile_Renderer.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 2189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "PC_Renderer.asset.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 189,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "PC_Renderer.asset",
+                                "extension": ".asset",
+                                "changes": 1,
+                                "sizeInBytes": 3439,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 57540,
+                        "number_of_changes": 14,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "TextMesh Pro.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Scenes",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "SampleScene.unity",
+                                "extension": ".unity",
+                                "changes": 4,
+                                "sizeInBytes": 41382,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "SampleScene.unity.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 155,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 41537,
+                        "number_of_changes": 5,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Materials",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "NodeMaterial.mat.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 188,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "EdgeMaterial.mat.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 188,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "EdgeMaterial.mat",
+                                "extension": ".mat",
+                                "changes": 1,
+                                "sizeInBytes": 3762,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "NodeMaterial.mat",
+                                "extension": ".mat",
+                                "changes": 1,
+                                "sizeInBytes": 3700,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 7838,
+                        "number_of_changes": 4,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "extension": "",
+                        "changes": 1,
+                        "sizeInBytes": 6148,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Prefabs",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "UIContributor.prefab",
+                                "extension": ".prefab",
+                                "changes": 1,
+                                "sizeInBytes": 7585,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Node.prefab",
+                                "extension": ".prefab",
+                                "changes": 2,
+                                "sizeInBytes": 4592,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Edge.prefab",
+                                "extension": ".prefab",
+                                "changes": 2,
+                                "sizeInBytes": 4005,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Node.prefab.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 154,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Edge.prefab.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 154,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "UIContributor.prefab.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 154,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 16644,
+                        "number_of_changes": 8,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Readme.asset.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 182,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "InputSystem_Actions.inputactions.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 376,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "Scripts.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "InputSystem_Actions.inputactions",
+                        "extension": ".inputactions",
+                        "changes": 1,
+                        "sizeInBytes": 41005,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "Materials.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "Prefabs.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Scripts",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "UIControbutor.cs",
+                                "extension": ".cs",
+                                "changes": 1,
+                                "sizeInBytes": 519,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "UIControbutor.cs.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 59,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "template.json.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 158,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "template.json",
+                                "extension": ".json",
+                                "changes": 2,
+                                "sizeInBytes": 791,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "EdgeController.cs",
+                                "extension": ".cs",
+                                "changes": 1,
+                                "sizeInBytes": 1076,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "NodeController.cs.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 59,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "NodeController.cs",
+                                "extension": ".cs",
+                                "changes": 3,
+                                "sizeInBytes": 1720,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "ContributorScrollViewController.cs",
+                                "extension": ".cs",
+                                "changes": 1,
+                                "sizeInBytes": 1144,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "ContributorScrollViewController.cs.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 59,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "EdgeController.cs.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 59,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "FiletreeManager.cs.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 59,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "FiletreeManager.cs",
+                                "extension": ".cs",
+                                "changes": 3,
+                                "sizeInBytes": 4892,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 10595,
+                        "number_of_changes": 17,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "TutorialInfo",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": ".DS_Store",
+                                "extension": "",
+                                "changes": 1,
+                                "sizeInBytes": 6148,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Layout.wlt",
+                                "extension": ".wlt",
+                                "changes": 1,
+                                "sizeInBytes": 15479,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Scripts.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 193,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "Layout.wlt.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 176,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Icons",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "URP.png",
+                                        "extension": ".png",
+                                        "changes": 1,
+                                        "sizeInBytes": 24069,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "URP.png.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 3156,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 27225,
+                                "number_of_changes": 2,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "folder",
+                                "name": "Scripts",
+                                "children": [
+                                    {
+                                        "type": "file",
+                                        "name": "Editor.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 193,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Readme.cs",
+                                        "extension": ".cs",
+                                        "changes": 1,
+                                        "sizeInBytes": 302,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Readme.cs.meta",
+                                        "extension": ".meta",
+                                        "changes": 1,
+                                        "sizeInBytes": 317,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ],
+                                        "criticality": 0.0
+                                    },
+                                    {
+                                        "type": "folder",
+                                        "name": "Editor",
+                                        "children": [
+                                            {
+                                                "type": "file",
+                                                "name": "ReadmeEditor.cs.meta",
+                                                "extension": ".meta",
+                                                "changes": 1,
+                                                "sizeInBytes": 264,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            },
+                                            {
+                                                "type": "file",
+                                                "name": "ReadmeEditor.cs",
+                                                "extension": ".cs",
+                                                "changes": 1,
+                                                "sizeInBytes": 6677,
+                                                "contributors": [
+                                                    {
+                                                        "name": "Steffen Giersch",
+                                                        "knowledge": 1.0
+                                                    }
+                                                ],
+                                                "criticality": 0.0
+                                            }
+                                        ],
+                                        "criticality": 0.0,
+                                        "sizeInBytes": 6941,
+                                        "number_of_changes": 2,
+                                        "contributors": [
+                                            {
+                                                "name": "Steffen Giersch",
+                                                "knowledge": 1.0
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "criticality": 0.0,
+                                "sizeInBytes": 7753,
+                                "number_of_changes": 5,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "Icons.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 193,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.0,
+                        "sizeInBytes": 57167,
+                        "number_of_changes": 12,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Ressources.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "TutorialInfo.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "folder",
+                        "name": "Ressources",
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "dummy.json",
+                                "extension": ".json",
+                                "changes": 3,
+                                "sizeInBytes": 17636,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "dummy.json.meta",
+                                "extension": ".meta",
+                                "changes": 1,
+                                "sizeInBytes": 158,
+                                "contributors": [
+                                    {
+                                        "name": "Steffen Giersch",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "git3d.json",
+                                "extension": ".json",
+                                "changes": 1,
+                                "sizeInBytes": 40094,
+                                "contributors": [
+                                    {
+                                        "name": "Oliver Widder",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            },
+                            {
+                                "type": "file",
+                                "name": "ansible-kafka-admin.json",
+                                "extension": ".json",
+                                "changes": 1,
+                                "sizeInBytes": 45211,
+                                "contributors": [
+                                    {
+                                        "name": "Oliver Widder",
+                                        "knowledge": 1.0
+                                    }
+                                ],
+                                "criticality": 0.0
+                            }
+                        ],
+                        "criticality": 0.5,
+                        "sizeInBytes": 103099,
+                        "number_of_changes": 6,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 0.5
+                            },
+                            {
+                                "name": "Oliver Widder",
+                                "knowledge": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Settings.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    },
+                    {
+                        "type": "file",
+                        "name": "Scenes.meta",
+                        "extension": ".meta",
+                        "changes": 1,
+                        "sizeInBytes": 172,
+                        "contributors": [
+                            {
+                                "name": "Steffen Giersch",
+                                "knowledge": 1.0
+                            }
+                        ],
+                        "criticality": 0.0
+                    }
+                ],
+                "criticality": 0.013157894736842146,
+                "sizeInBytes": 6739554,
+                "number_of_changes": 164,
+                "contributors": [
+                    {
+                        "name": "Steffen Giersch",
+                        "knowledge": 0.9868421052631579
+                    },
+                    {
+                        "name": "Oliver Widder",
+                        "knowledge": 0.013157894736842105
+                    }
+                ]
+            }
+        ],
+        "criticality": 0.02717391304347827,
+        "sizeInBytes": 7035816,
+        "number_of_changes": 225,
+        "contributors": [
+            {
+                "name": "Steffen Giersch",
+                "knowledge": 0.9728260869565217
+            },
+            {
+                "name": "Oliver Widder",
+                "knowledge": 0.03260869565217391
+            }
+        ]
+    }
+}

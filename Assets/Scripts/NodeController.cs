@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Random = UnityEngine.Random;
+using UnityEngine.Serialization;
 
 public class NodeController : MonoBehaviour
 {
@@ -10,24 +10,21 @@ public class NodeController : MonoBehaviour
     [SerializeField] Material BaseMaterial;
     public string nodeName;
     public float criticality;
-    public List<FiletreeManager.Contributer> contributers = new();
+    [FormerlySerializedAs("contributers")] public List<FiletreeManager.Contributor> contributors = new();
 
 
     private void Start()
     {
-        Debug.Log($"Got color: {contributers[0].color}");
         SetColor();
-        Sphere.transform.localScale = Vector3.one * criticality * 2f; // #magic
+        Sphere.transform.localScale = Vector3.one * (criticality * 2f + 0.5f); // #magic
     }
 
     private void SetColor()
     {
-        var colors = contributers.Select(contributer => contributer.color).ToArray();
-        //var lerpedColor = LerpMultipleColors(colors, 0.5f);
-
+       // var colors = contributors.Select(contributer => contributer.color).ToArray();
+       // var lerpedColor = LerpMultipleColors(colors, 0.5f);
         Sphere.material = new Material(BaseMaterial);
-        var i = Random.Range(0, colors.Length);
-        Sphere.material.color = colors[i];
+        Sphere.material.color = Color.Lerp(Color.green, Color.red, criticality);
     }
     
     private Color LerpMultipleColors(Color[] colors, float t)
