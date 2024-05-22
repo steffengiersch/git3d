@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,12 +10,16 @@ public class FiletreeManager : MonoBehaviour
     private List<NodeController> nodes = new();
     private List<LineRenderer> lines = new();
     
+    public Action<List<Contributer>> ContributorsChanged;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ParseJson();
         GenerateColorsForContributors();
         GenerateNodes(_root.filetree.AsChild(), null, 0, 0);
+
+        ContributorsChanged?.Invoke(_root.contributer);
     }
 
     private void GenerateColorsForContributors()

@@ -17,7 +17,7 @@ public class NodeController : MonoBehaviour
     {
         Debug.Log($"Got color: {contributers[0].color}");
         SetColor();
-        Sphere.transform.localScale = Vector3.one * criticality;
+        Sphere.transform.localScale = Vector3.one * criticality * 2f; // #magic
     }
 
     private void SetColor()
