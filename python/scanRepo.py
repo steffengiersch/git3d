@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 from functools import reduce
 import time
+import json
 
 
 def is_file_in_git(git, file_path: str):
@@ -70,12 +71,13 @@ def recursive_walk_repo(repo, relative_path, current):
         return (sum_number_of_changes, sum_criticality, sum_size_in_bytes)
 
 
-def start(repo_path):
+def start(repo_path, out_file_path):
     repo = Repo(repo_path)
     root = {'children': []}
     recursive_walk_repo(repo=repo, relative_path="", current=root)
-    print(root)
+    with open(out_file_path, 'w') as f:
+        json.dump(root, f)
 
 
 if '__main__' == __name__:
-    start(os.getenv('REPO_PATH'))
+    start(os.getenv('REPO_PATH'), os.getenv('OUT_FILE_PATH'))
