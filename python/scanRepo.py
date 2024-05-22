@@ -21,8 +21,9 @@ def extract_author_list(commits_touching_path: list) -> list:
     for commit in commits_touching_path:
         if commit.author.name not in global_author_list:
             global_author_list.append(commit.author.name)
-        points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 7) + 1)
-        authors[commit.author.name] = authors.get(commit.author.name, 0) + points
+        points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 100) + 1)
+        if commit.author.name not in authors:
+            authors[commit.author.name] = points
     author_list = reduce(lambda al, a: [*al, {'name': a, 'knowledge': authors[a] / len(commits_touching_path)}], authors.keys(), [])
     return author_list
 
@@ -41,6 +42,7 @@ def normalize_author_list(author_list: list, number_of_files) -> list:
     return reduce(lambda al, a: [*al, {'name': a['name'], 'knowledge': a['knowledge'] / number_of_files}], author_list, [])
 
 def recursive_walk_repo(repo, relative_path, current):
+    print(f"scan: {relative_path}")
     git = repo.git
     repo_path = git.working_dir
     abs_path = os.path.join(repo_path, relative_path)
@@ -49,15 +51,13 @@ def recursive_walk_repo(repo, relative_path, current):
             commits_touching_path = list(repo.iter_commits(paths=relative_path))
             number_of_changes = len(commits_touching_path)
             author_list = extract_author_list(commits_touching_path)
-            sum_knowledge = reduce(lambda c, a: c + a['knowledge'], author_list, 0)
-            criticality = 1 - sum_knowledge
+            max_knowledge = reduce(lambda c, a: a['knowledge'] if a['knowledge'] > c else c, author_list, 0)
+            criticality = 1 - max_knowledge
             size_in_bytes = os.path.getsize(abs_path)
             file_descriptor = {
                 'type': 'file',
                 'name': os.path.basename(relative_path),
                 'extension': os.path.splitext(relative_path)[1],
-                'created': time.ctime(os.path.getctime(abs_path)),
-                'last_modified': time.ctime(os.path.getmtime(abs_path)),
                 'changes': number_of_changes,
                 'sizeInBytes': size_in_bytes,
                 'contributors': author_list,
@@ -76,8 +76,6 @@ def recursive_walk_repo(repo, relative_path, current):
         folder_descriptor = {
             'type': 'folder',
             'name': os.path.basename(relative_path) if len(relative_path) > 0 else '.',
-            'created': time.ctime(os.path.getctime(abs_path)),
-            'last_modified': time.ctime(os.path.getmtime(abs_path)),
             'children': [],
         }
         for entry in os.listdir(str(abs_path)):

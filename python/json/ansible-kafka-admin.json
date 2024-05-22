@@ -1,0 +1,3100 @@
+{
+  "repository": {
+    "name": "ansible-kafka-admin",
+    "url": "git@github.com:StephenSorriaux/ansible-kafka-admin.git",
+    "path": "/Users/oliverwidder/dev/github/ansible-kafka-admin"
+  },
+  "contributors": [
+    "Stephen SORRIAUX",
+    "Stephen Sorriaux",
+    "Laurent Oliva",
+    "Bastien Bouclet",
+    "Stephen",
+    "Pierre MORVAN",
+    "Simone Aiello",
+    "Yassine MILHI",
+    "Ryar Nyah",
+    "dependabot[bot]",
+    "ryarnyah",
+    "MILHI",
+    "Felix Dreissig",
+    "vgivanov",
+    "teebee",
+    "sandrejevs",
+    "Thomas Buchholz"
+  ],
+  "filetree": [
+    {
+      "type": "folder",
+      "name": ".",
+      "children": [
+        {
+          "type": "file",
+          "name": "LICENSE",
+          "extension": "",
+          "changes": 1,
+          "sizeInBytes": 11357,
+          "contributors": [
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.043478260869565216
+            }
+          ],
+          "criticality": 0.9565217391304348
+        },
+        {
+          "type": "file",
+          "name": "requirements.txt",
+          "extension": ".txt",
+          "changes": 7,
+          "sizeInBytes": 94,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.14285714285714285
+            },
+            {
+              "name": "Laurent Oliva",
+              "knowledge": 0.01098901098901099
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.01020408163265306
+            },
+            {
+              "name": "Bastien Bouclet",
+              "knowledge": 0.007518796992481203
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.006211180124223602
+            }
+          ],
+          "criticality": 0.8571428571428572
+        },
+        {
+          "type": "file",
+          "name": "publish-ansible-collection.sh",
+          "extension": ".sh",
+          "changes": 2,
+          "sizeInBytes": 211,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.1
+            }
+          ],
+          "criticality": 0.9
+        },
+        {
+          "type": "file",
+          "name": "test-requirements.txt",
+          "extension": ".txt",
+          "changes": 13,
+          "sizeInBytes": 256,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.07692307692307693
+            },
+            {
+              "name": "Pierre MORVAN",
+              "knowledge": 0.019230769230769232
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.01282051282051282
+            },
+            {
+              "name": "Yassine MILHI",
+              "knowledge": 0.007692307692307693
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.006993006993006993
+            },
+            {
+              "name": "dependabot[bot]",
+              "knowledge": 0.006993006993006993
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.005128205128205128
+            }
+          ],
+          "criticality": 0.9230769230769231
+        },
+        {
+          "type": "file",
+          "name": ".yamllint",
+          "extension": "",
+          "changes": 3,
+          "sizeInBytes": 326,
+          "contributors": [
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.025641025641025644
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.014492753623188406
+            }
+          ],
+          "criticality": 0.9743589743589743
+        },
+        {
+          "type": "folder",
+          "name": "tests",
+          "children": [
+            {
+              "type": "folder",
+              "name": "module_utils",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "test_kafka_scram.py",
+                  "extension": ".py",
+                  "changes": 2,
+                  "sizeInBytes": 1062,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.5
+                    },
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.5
+                },
+                {
+                  "type": "file",
+                  "name": "test_kafka_acls.py",
+                  "extension": ".py",
+                  "changes": 2,
+                  "sizeInBytes": 761,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.5
+                    },
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.07142857142857142
+                    }
+                  ],
+                  "criticality": 0.5
+                }
+              ],
+              "criticality": 0.5,
+              "sizeInBytes": 1823,
+              "number_of_changes": 4,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.5
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            }
+          ],
+          "criticality": 0.5,
+          "sizeInBytes": 1823,
+          "number_of_changes": 4,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.5
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.08333333333333333
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "meta",
+          "children": [
+            {
+              "type": "file",
+              "name": "main.yml",
+              "extension": ".yml",
+              "changes": 3,
+              "sizeInBytes": 352,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.022222222222222223
+                },
+                {
+                  "name": "Stephen",
+                  "knowledge": 0.014492753623188406
+                }
+              ],
+              "criticality": 0.9777777777777777
+            }
+          ],
+          "criticality": 0.9777777777777777,
+          "sizeInBytes": 352,
+          "number_of_changes": 3,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.022222222222222223
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.014492753623188406
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "library",
+          "children": [
+            {
+              "type": "file",
+              "name": "kafka_topic.py",
+              "extension": ".py",
+              "changes": 7,
+              "sizeInBytes": 7689,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.14285714285714285
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.015873015873015872
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.014285714285714287
+                }
+              ],
+              "criticality": 0.8571428571428572
+            },
+            {
+              "type": "file",
+              "name": "kafka_acl.py",
+              "extension": ".py",
+              "changes": 4,
+              "sizeInBytes": 4140,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.25
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.03571428571428571
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.025
+                }
+              ],
+              "criticality": 0.75
+            },
+            {
+              "type": "file",
+              "name": "kafka_user.py",
+              "extension": ".py",
+              "changes": 2,
+              "sizeInBytes": 2517,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.5
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.08333333333333333
+                }
+              ],
+              "criticality": 0.5
+            },
+            {
+              "type": "file",
+              "name": "kafka_users.py",
+              "extension": ".py",
+              "changes": 2,
+              "sizeInBytes": 2379,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.5
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.08333333333333333
+                }
+              ],
+              "criticality": 0.5
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib.py",
+              "extension": ".py",
+              "changes": 30,
+              "sizeInBytes": 10102,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.03333333333333333
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.0033333333333333335
+                },
+                {
+                  "name": "Stephen SORRIAUX",
+                  "knowledge": 0.0023809523809523807
+                },
+                {
+                  "name": "MILHI",
+                  "knowledge": 0.0020833333333333333
+                },
+                {
+                  "name": "Felix Dreissig",
+                  "knowledge": 0.00196078431372549
+                },
+                {
+                  "name": "vgivanov",
+                  "knowledge": 0.0017543859649122805
+                },
+                {
+                  "name": "Bastien Bouclet",
+                  "knowledge": 0.0017543859649122805
+                },
+                {
+                  "name": "teebee",
+                  "knowledge": 0.0015151515151515152
+                },
+                {
+                  "name": "Stephen",
+                  "knowledge": 0.0015151515151515152
+                }
+              ],
+              "criticality": 0.9666666666666667
+            },
+            {
+              "type": "file",
+              "name": "kafka_info.py",
+              "extension": ".py",
+              "changes": 9,
+              "sizeInBytes": 3508,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.1111111111111111
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.018518518518518517
+                },
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.013888888888888888
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.010101010101010102
+                }
+              ],
+              "criticality": 0.8888888888888888
+            },
+            {
+              "type": "file",
+              "name": "kafka_quotas.py",
+              "extension": ".py",
+              "changes": 4,
+              "sizeInBytes": 5092,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.25
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.025
+                }
+              ],
+              "criticality": 0.75
+            },
+            {
+              "type": "file",
+              "name": "kafka_acls.py",
+              "extension": ".py",
+              "changes": 5,
+              "sizeInBytes": 2933,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.2
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.02857142857142857
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.02
+                }
+              ],
+              "criticality": 0.8
+            },
+            {
+              "type": "file",
+              "name": "kafka_stat_lag.py",
+              "extension": ".py",
+              "changes": 7,
+              "sizeInBytes": 3028,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.14285714285714285
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.02040816326530612
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.009523809523809523
+                },
+                {
+                  "name": "MILHI",
+                  "knowledge": 0.008928571428571428
+                }
+              ],
+              "criticality": 0.8571428571428572
+            },
+            {
+              "type": "file",
+              "name": "kafka_topics.py",
+              "extension": ".py",
+              "changes": 5,
+              "sizeInBytes": 5203,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.2
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.02
+                }
+              ],
+              "criticality": 0.8
+            },
+            {
+              "type": "file",
+              "name": "kafka_consumer_group.py",
+              "extension": ".py",
+              "changes": 5,
+              "sizeInBytes": 4035,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.2
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.03333333333333333
+                },
+                {
+                  "name": "Yassine MILHI",
+                  "knowledge": 0.02
+                }
+              ],
+              "criticality": 0.8
+            }
+          ],
+          "criticality": 0.76998556998557,
+          "sizeInBytes": 50626,
+          "number_of_changes": 80,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.5
+            },
+            {
+              "name": "ryarnyah",
+              "knowledge": 0.015873015873015872
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.025
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.08333333333333333
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.0023809523809523807
+            },
+            {
+              "name": "MILHI",
+              "knowledge": 0.008928571428571428
+            },
+            {
+              "name": "Felix Dreissig",
+              "knowledge": 0.00196078431372549
+            },
+            {
+              "name": "vgivanov",
+              "knowledge": 0.0017543859649122805
+            },
+            {
+              "name": "Bastien Bouclet",
+              "knowledge": 0.0017543859649122805
+            },
+            {
+              "name": "teebee",
+              "knowledge": 0.0015151515151515152
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.0015151515151515152
+            },
+            {
+              "name": "Pierre MORVAN",
+              "knowledge": 0.013888888888888888
+            },
+            {
+              "name": "Yassine MILHI",
+              "knowledge": 0.02
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "README.md",
+          "extension": ".md",
+          "changes": 48,
+          "sizeInBytes": 23444,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.020833333333333332
+            },
+            {
+              "name": "Pierre MORVAN",
+              "knowledge": 0.004166666666666667
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.003472222222222222
+            },
+            {
+              "name": "ryarnyah",
+              "knowledge": 0.0023148148148148147
+            },
+            {
+              "name": "Yassine MILHI",
+              "knowledge": 0.0020833333333333333
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.001893939393939394
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.001388888888888889
+            },
+            {
+              "name": "MILHI",
+              "knowledge": 0.0013020833333333333
+            },
+            {
+              "name": "Bastien Bouclet",
+              "knowledge": 0.0010964912280701754
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.000946969696969697
+            }
+          ],
+          "criticality": 0.9791666666666666
+        },
+        {
+          "type": "file",
+          "name": ".gitignore",
+          "extension": "",
+          "changes": 4,
+          "sizeInBytes": 84,
+          "contributors": [
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.022727272727272728
+            },
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.020833333333333332
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.011904761904761904
+            },
+            {
+              "name": "Stephen",
+              "knowledge": 0.010869565217391304
+            }
+          ],
+          "criticality": 0.9772727272727273
+        },
+        {
+          "type": "folder",
+          "name": "examples",
+          "children": [
+            {
+              "type": "folder",
+              "name": "acl-creation-multiops",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "kafka_server_jaas.conf",
+                  "extension": ".conf",
+                  "changes": 1,
+                  "sizeInBytes": 195,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.14285714285714285
+                    }
+                  ],
+                  "criticality": 0.8571428571428572
+                },
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 2583,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.14285714285714285
+                    }
+                  ],
+                  "criticality": 0.8571428571428572
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 991,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.14285714285714285
+                    }
+                  ],
+                  "criticality": 0.8571428571428572
+                }
+              ],
+              "criticality": 0.8571428571428572,
+              "sizeInBytes": 3769,
+              "number_of_changes": 3,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.14285714285714285
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "topic-replica-update",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 959,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 944,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                }
+              ],
+              "criticality": 0.9166666666666666,
+              "sizeInBytes": 1903,
+              "number_of_changes": 2,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "topic-options-update",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 978,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 554,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                }
+              ],
+              "criticality": 0.9166666666666666,
+              "sizeInBytes": 1532,
+              "number_of_changes": 2,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "scram-user-configuration",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "kafka_server_jaas.conf",
+                  "extension": ".conf",
+                  "changes": 1,
+                  "sizeInBytes": 86,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                },
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 1562,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 1091,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                }
+              ],
+              "criticality": 0.8333333333333334,
+              "sizeInBytes": 2739,
+              "number_of_changes": 3,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.16666666666666666
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "topic-creation",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 642,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 554,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                }
+              ],
+              "criticality": 0.9166666666666666,
+              "sizeInBytes": 1196,
+              "number_of_changes": 2,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "README.md",
+              "extension": ".md",
+              "changes": 3,
+              "sizeInBytes": 1221,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.16666666666666666
+                }
+              ],
+              "criticality": 0.8333333333333334
+            },
+            {
+              "type": "folder",
+              "name": "acl-creation",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "kafka_server_jaas.conf",
+                  "extension": ".conf",
+                  "changes": 1,
+                  "sizeInBytes": 195,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.09090909090909091
+                    }
+                  ],
+                  "criticality": 0.9090909090909091
+                },
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 1029,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.09090909090909091
+                    }
+                  ],
+                  "criticality": 0.9090909090909091
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 991,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.09090909090909091
+                    }
+                  ],
+                  "criticality": 0.9090909090909091
+                }
+              ],
+              "criticality": 0.9090909090909091,
+              "sizeInBytes": 2215,
+              "number_of_changes": 3,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.09090909090909091
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "topic-partition-update",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "playbook.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 941,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                },
+                {
+                  "type": "file",
+                  "name": "docker-compose.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 554,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.08333333333333333
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                }
+              ],
+              "criticality": 0.9166666666666666,
+              "sizeInBytes": 1495,
+              "number_of_changes": 2,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "ansible.cfg",
+              "extension": ".cfg",
+              "changes": 2,
+              "sizeInBytes": 77,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.08333333333333333
+                },
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.041666666666666664
+                }
+              ],
+              "criticality": 0.9166666666666666
+            },
+            {
+              "type": "file",
+              "name": "requirements.yml",
+              "extension": ".yml",
+              "changes": 1,
+              "sizeInBytes": 149,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                }
+              ],
+              "criticality": 0.9166666666666666
+            }
+          ],
+          "criticality": 0.889935064935065,
+          "sizeInBytes": 16296,
+          "number_of_changes": 23,
+          "contributors": [
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.16666666666666666
+            },
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "module_utils",
+          "children": [
+            {
+              "type": "file",
+              "name": "kafka_lib_import_checker.py",
+              "extension": ".py",
+              "changes": 1,
+              "sizeInBytes": 749,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.2
+                }
+              ],
+              "criticality": 0.8
+            },
+            {
+              "type": "file",
+              "name": "kafka_acl.py",
+              "extension": ".py",
+              "changes": 5,
+              "sizeInBytes": 7493,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.02857142857142857
+                },
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.01818181818181818
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.016666666666666666
+                }
+              ],
+              "criticality": 0.9714285714285714
+            },
+            {
+              "type": "file",
+              "name": "kafka_manager.py",
+              "extension": ".py",
+              "changes": 37,
+              "sizeInBytes": 71119,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.013513513513513514
+                },
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.009009009009009009
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.0045045045045045045
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.003003003003003003
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.002702702702702703
+                },
+                {
+                  "name": "Yassine MILHI",
+                  "knowledge": 0.002702702702702703
+                },
+                {
+                  "name": "sandrejevs",
+                  "knowledge": 0.002457002457002457
+                },
+                {
+                  "name": "Stephen SORRIAUX",
+                  "knowledge": 0.0019305019305019303
+                },
+                {
+                  "name": "MILHI",
+                  "knowledge": 0.0016891891891891893
+                }
+              ],
+              "criticality": 0.9864864864864865
+            },
+            {
+              "type": "file",
+              "name": "ssl_utils.py",
+              "extension": ".py",
+              "changes": 2,
+              "sizeInBytes": 3856,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.038461538461538464
+                },
+                {
+                  "name": "MILHI",
+                  "knowledge": 0.03125
+                }
+              ],
+              "criticality": 0.9615384615384616
+            },
+            {
+              "type": "file",
+              "name": "kafka_fix_import.py",
+              "extension": ".py",
+              "changes": 1,
+              "sizeInBytes": 203,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_quotas.py",
+              "extension": ".py",
+              "changes": 5,
+              "sizeInBytes": 4199,
+              "contributors": [
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.04
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.02222222222222222
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.01818181818181818
+                }
+              ],
+              "criticality": 0.96
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_errors.py",
+              "extension": ".py",
+              "changes": 1,
+              "sizeInBytes": 649,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.07692307692307693
+                }
+              ],
+              "criticality": 0.9230769230769231
+            },
+            {
+              "type": "file",
+              "name": "kafka_consumer_lag.py",
+              "extension": ".py",
+              "changes": 3,
+              "sizeInBytes": 5700,
+              "contributors": [
+                {
+                  "name": "Stephen SORRIAUX",
+                  "knowledge": 0.023809523809523808
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.022222222222222223
+                },
+                {
+                  "name": "MILHI",
+                  "knowledge": 0.020833333333333332
+                }
+              ],
+              "criticality": 0.9761904761904762
+            },
+            {
+              "type": "file",
+              "name": "kafka_scram.py",
+              "extension": ".py",
+              "changes": 1,
+              "sizeInBytes": 1700,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.16666666666666666
+                }
+              ],
+              "criticality": 0.8333333333333334
+            },
+            {
+              "type": "file",
+              "name": "kafka_protocol.py",
+              "extension": ".py",
+              "changes": 6,
+              "sizeInBytes": 19868,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.08333333333333333
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.027777777777777776
+                },
+                {
+                  "name": "Yassine MILHI",
+                  "knowledge": 0.016666666666666666
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.015151515151515152
+                }
+              ],
+              "criticality": 0.9166666666666666
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_commons.py",
+              "extension": ".py",
+              "changes": 16,
+              "sizeInBytes": 13163,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.03125
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.008928571428571428
+                },
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.006944444444444444
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.006944444444444444
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.00625
+                },
+                {
+                  "name": "Thomas Buchholz",
+                  "knowledge": 0.005681818181818182
+                },
+                {
+                  "name": "Laurent Oliva",
+                  "knowledge": 0.004807692307692308
+                }
+              ],
+              "criticality": 0.96875
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_user.py",
+              "extension": ".py",
+              "changes": 2,
+              "sizeInBytes": 4712,
+              "contributors": [
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.08333333333333333
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.08333333333333333
+                }
+              ],
+              "criticality": 0.9166666666666666
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_topic.py",
+              "extension": ".py",
+              "changes": 10,
+              "sizeInBytes": 4606,
+              "contributors": [
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.02
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.01111111111111111
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.008333333333333333
+                }
+              ],
+              "criticality": 0.98
+            },
+            {
+              "type": "file",
+              "name": "kafka_lib_acl.py",
+              "extension": ".py",
+              "changes": 9,
+              "sizeInBytes": 5924,
+              "contributors": [
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.027777777777777776
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.015873015873015872
+                },
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.012345679012345678
+                },
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.012345679012345678
+                },
+                {
+                  "name": "sandrejevs",
+                  "knowledge": 0.010101010101010102
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.009259259259259259
+                }
+              ],
+              "criticality": 0.9722222222222222
+            }
+          ],
+          "criticality": 0.8690257005435577,
+          "sizeInBytes": 143941,
+          "number_of_changes": 99,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 1.0
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.16666666666666666
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.01818181818181818
+            },
+            {
+              "name": "Pierre MORVAN",
+              "knowledge": 0.08333333333333333
+            },
+            {
+              "name": "ryarnyah",
+              "knowledge": 0.022222222222222223
+            },
+            {
+              "name": "Yassine MILHI",
+              "knowledge": 0.016666666666666666
+            },
+            {
+              "name": "sandrejevs",
+              "knowledge": 0.010101010101010102
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.023809523809523808
+            },
+            {
+              "name": "MILHI",
+              "knowledge": 0.03125
+            },
+            {
+              "name": "Thomas Buchholz",
+              "knowledge": 0.005681818181818182
+            },
+            {
+              "name": "Laurent Oliva",
+              "knowledge": 0.004807692307692308
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "build-ansible-collection.sh",
+          "extension": ".sh",
+          "changes": 2,
+          "sizeInBytes": 1160,
+          "contributors": [
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.1
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.045454545454545456
+            }
+          ],
+          "criticality": 0.9
+        },
+        {
+          "type": "folder",
+          "name": "molecule",
+          "children": [
+            {
+              "type": "folder",
+              "name": "default",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "INSTALL.rst",
+                  "extension": ".rst",
+                  "changes": 1,
+                  "sizeInBytes": 151,
+                  "contributors": [
+                    {
+                      "name": "ryarnyah",
+                      "knowledge": 0.045454545454545456
+                    }
+                  ],
+                  "criticality": 0.9545454545454546
+                },
+                {
+                  "type": "file",
+                  "name": "molecule.yml",
+                  "extension": ".yml",
+                  "changes": 22,
+                  "sizeInBytes": 16741,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.045454545454545456
+                    },
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.004545454545454546
+                    },
+                    {
+                      "name": "Yassine MILHI",
+                      "knowledge": 0.004545454545454546
+                    },
+                    {
+                      "name": "Stephen SORRIAUX",
+                      "knowledge": 0.0030303030303030303
+                    },
+                    {
+                      "name": "Bastien Bouclet",
+                      "knowledge": 0.0023923444976076554
+                    },
+                    {
+                      "name": "ryarnyah",
+                      "knowledge": 0.002066115702479339
+                    }
+                  ],
+                  "criticality": 0.9545454545454546
+                },
+                {
+                  "type": "folder",
+                  "name": "tests",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "ansible_utils.py",
+                      "extension": ".py",
+                      "changes": 23,
+                      "sizeInBytes": 29013,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.043478260869565216
+                        },
+                        {
+                          "name": "Simone Aiello",
+                          "knowledge": 0.006211180124223602
+                        },
+                        {
+                          "name": "ryarnyah",
+                          "knowledge": 0.004830917874396135
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.004347826086956522
+                        },
+                        {
+                          "name": "Yassine MILHI",
+                          "knowledge": 0.004347826086956522
+                        }
+                      ],
+                      "criticality": 0.9565217391304348
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_quotas_default.py",
+                      "extension": ".py",
+                      "changes": 3,
+                      "sizeInBytes": 5596,
+                      "contributors": [
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.030303030303030304
+                        }
+                      ],
+                      "criticality": 0.9696969696969697
+                    },
+                    {
+                      "type": "file",
+                      "name": "__init__.py",
+                      "extension": ".py",
+                      "changes": 1,
+                      "sizeInBytes": 0,
+                      "contributors": [
+                        {
+                          "name": "Stephen SORRIAUX",
+                          "knowledge": 0.047619047619047616
+                        }
+                      ],
+                      "criticality": 0.9523809523809523
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_topic_default.py",
+                      "extension": ".py",
+                      "changes": 13,
+                      "sizeInBytes": 18384,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.015384615384615385
+                        },
+                        {
+                          "name": "Pierre MORVAN",
+                          "knowledge": 0.008547008547008546
+                        },
+                        {
+                          "name": "ryarnyah",
+                          "knowledge": 0.008547008547008546
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.00641025641025641
+                        }
+                      ],
+                      "criticality": 0.9846153846153847
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_consumer_group_default.py",
+                      "extension": ".py",
+                      "changes": 1,
+                      "sizeInBytes": 2576,
+                      "contributors": [
+                        {
+                          "name": "Yassine MILHI",
+                          "knowledge": 0.1
+                        }
+                      ],
+                      "criticality": 0.9
+                    },
+                    {
+                      "type": "file",
+                      "name": "utils.py",
+                      "extension": ".py",
+                      "changes": 8,
+                      "sizeInBytes": 7704,
+                      "contributors": [
+                        {
+                          "name": "Yassine MILHI",
+                          "knowledge": 0.0125
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.011363636363636364
+                        },
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.009615384615384616
+                        },
+                        {
+                          "name": "Stephen SORRIAUX",
+                          "knowledge": 0.008928571428571428
+                        },
+                        {
+                          "name": "Bastien Bouclet",
+                          "knowledge": 0.006578947368421052
+                        }
+                      ],
+                      "criticality": 0.9875
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_default.py",
+                      "extension": ".py",
+                      "changes": 16,
+                      "sizeInBytes": 19516,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.0125
+                        },
+                        {
+                          "name": "Pierre MORVAN",
+                          "knowledge": 0.006944444444444444
+                        },
+                        {
+                          "name": "ryarnyah",
+                          "knowledge": 0.00625
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.005681818181818182
+                        },
+                        {
+                          "name": "Bastien Bouclet",
+                          "knowledge": 0.003289473684210526
+                        },
+                        {
+                          "name": "Stephen SORRIAUX",
+                          "knowledge": 0.002976190476190476
+                        }
+                      ],
+                      "criticality": 0.9875
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_acl_default.py",
+                      "extension": ".py",
+                      "changes": 8,
+                      "sizeInBytes": 7736,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.025
+                        },
+                        {
+                          "name": "Simone Aiello",
+                          "knowledge": 0.017857142857142856
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.010416666666666666
+                        }
+                      ],
+                      "criticality": 0.975
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_ssl_default.py",
+                      "extension": ".py",
+                      "changes": 3,
+                      "sizeInBytes": 8260,
+                      "contributors": [
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.03333333333333333
+                        }
+                      ],
+                      "criticality": 0.9666666666666667
+                    }
+                  ],
+                  "criticality": 0.9644313013878231,
+                  "sizeInBytes": 98785,
+                  "number_of_changes": 76,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.043478260869565216
+                    },
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.017857142857142856
+                    },
+                    {
+                      "name": "ryarnyah",
+                      "knowledge": 0.008547008547008546
+                    },
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.03333333333333333
+                    },
+                    {
+                      "name": "Yassine MILHI",
+                      "knowledge": 0.1
+                    },
+                    {
+                      "name": "Stephen SORRIAUX",
+                      "knowledge": 0.047619047619047616
+                    },
+                    {
+                      "name": "Pierre MORVAN",
+                      "knowledge": 0.008547008547008546
+                    },
+                    {
+                      "name": "Bastien Bouclet",
+                      "knowledge": 0.006578947368421052
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "Dockerfile.j2",
+                  "extension": ".j2",
+                  "changes": 4,
+                  "sizeInBytes": 1034,
+                  "contributors": [
+                    {
+                      "name": "Pierre MORVAN",
+                      "knowledge": 0.08333333333333333
+                    },
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.05
+                    },
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.022727272727272728
+                    },
+                    {
+                      "name": "ryarnyah",
+                      "knowledge": 0.011363636363636364
+                    }
+                  ],
+                  "criticality": 0.9166666666666666
+                },
+                {
+                  "type": "file",
+                  "name": "kafka_server_jaas.conf",
+                  "extension": ".conf",
+                  "changes": 1,
+                  "sizeInBytes": 201,
+                  "contributors": [
+                    {
+                      "name": "Bastien Bouclet",
+                      "knowledge": 0.05263157894736842
+                    }
+                  ],
+                  "criticality": 0.9473684210526316
+                },
+                {
+                  "type": "file",
+                  "name": "converge.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 38,
+                  "contributors": [
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.07692307692307693
+                    }
+                  ],
+                  "criticality": 0.9230769230769231
+                },
+                {
+                  "type": "folder",
+                  "name": "tls",
+                  "children": [
+                    {
+                      "type": "folder",
+                      "name": "zk",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "server.key.pem",
+                          "extension": ".pem",
+                          "changes": 5,
+                          "sizeInBytes": 1704,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.2
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.02
+                            }
+                          ],
+                          "criticality": 0.8
+                        },
+                        {
+                          "type": "file",
+                          "name": "server.cert.pem",
+                          "extension": ".pem",
+                          "changes": 6,
+                          "sizeInBytes": 1391,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        },
+                        {
+                          "type": "file",
+                          "name": "server.csr.pem",
+                          "extension": ".pem",
+                          "changes": 6,
+                          "sizeInBytes": 1119,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        }
+                      ],
+                      "criticality": 0.8222222222222223,
+                      "sizeInBytes": 4214,
+                      "number_of_changes": 17,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.2
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.02
+                        }
+                      ]
+                    },
+                    {
+                      "type": "folder",
+                      "name": "keystore",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "zk-truststore.jks",
+                          "extension": ".jks",
+                          "changes": 6,
+                          "sizeInBytes": 1022,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        },
+                        {
+                          "type": "file",
+                          "name": "server-truststore.jks",
+                          "extension": ".jks",
+                          "changes": 6,
+                          "sizeInBytes": 1022,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        },
+                        {
+                          "type": "file",
+                          "name": "server-keystore.p12",
+                          "extension": ".p12",
+                          "changes": 7,
+                          "sizeInBytes": 4842,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "zk-keystore.p12",
+                          "extension": ".p12",
+                          "changes": 6,
+                          "sizeInBytes": 4794,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        },
+                        {
+                          "type": "file",
+                          "name": "zk-keystore.jks",
+                          "extension": ".jks",
+                          "changes": 6,
+                          "sizeInBytes": 4283,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        },
+                        {
+                          "type": "file",
+                          "name": "server-keystore.jks",
+                          "extension": ".jks",
+                          "changes": 6,
+                          "sizeInBytes": 4325,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ],
+                          "criticality": 0.8333333333333334
+                        }
+                      ],
+                      "criticality": 0.8373015873015873,
+                      "sizeInBytes": 20288,
+                      "number_of_changes": 37,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.16666666666666666
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.016666666666666666
+                        }
+                      ]
+                    },
+                    {
+                      "type": "file",
+                      "name": "server.pem",
+                      "extension": ".pem",
+                      "changes": 7,
+                      "sizeInBytes": 5869,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.014285714285714287
+                        }
+                      ],
+                      "criticality": 0.8571428571428572
+                    },
+                    {
+                      "type": "folder",
+                      "name": "ca",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "ca.cert.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1371,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "serial.old",
+                          "extension": ".old",
+                          "changes": 1,
+                          "sizeInBytes": 5,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt",
+                          "extension": ".txt",
+                          "changes": 7,
+                          "sizeInBytes": 99,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "folder",
+                          "name": "newcerts",
+                          "children": [
+                            {
+                              "type": "file",
+                              "name": "1000.pem",
+                              "extension": ".pem",
+                              "changes": 7,
+                              "sizeInBytes": 1346,
+                              "contributors": [
+                                {
+                                  "name": "Stephen Sorriaux",
+                                  "knowledge": 0.14285714285714285
+                                },
+                                {
+                                  "name": "Ryar Nyah",
+                                  "knowledge": 0.014285714285714287
+                                }
+                              ],
+                              "criticality": 0.8571428571428572
+                            }
+                          ],
+                          "criticality": 0.8571428571428572,
+                          "sizeInBytes": 1346,
+                          "number_of_changes": 7,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ]
+                        },
+                        {
+                          "type": "file",
+                          "name": "ca.key.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1704,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt.old",
+                          "extension": ".old",
+                          "changes": 1,
+                          "sizeInBytes": 0,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        },
+                        {
+                          "type": "file",
+                          "name": "serial",
+                          "extension": "",
+                          "changes": 1,
+                          "sizeInBytes": 5,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt.attr",
+                          "extension": ".attr",
+                          "changes": 1,
+                          "sizeInBytes": 21,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        }
+                      ],
+                      "criticality": 0.8831168831168832,
+                      "sizeInBytes": 4551,
+                      "number_of_changes": 32,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.09090909090909091
+                        }
+                      ]
+                    },
+                    {
+                      "type": "file",
+                      "name": "zk.pem",
+                      "extension": ".pem",
+                      "changes": 6,
+                      "sizeInBytes": 5812,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.16666666666666666
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.016666666666666666
+                        }
+                      ],
+                      "criticality": 0.8333333333333334
+                    },
+                    {
+                      "type": "folder",
+                      "name": "server",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "server.key.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1704,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "server.cert.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1448,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "server.csr.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1180,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        }
+                      ],
+                      "criticality": 0.8571428571428572,
+                      "sizeInBytes": 4332,
+                      "number_of_changes": 21,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.014285714285714287
+                        }
+                      ]
+                    },
+                    {
+                      "type": "file",
+                      "name": "generate.sh",
+                      "extension": ".sh",
+                      "changes": 7,
+                      "sizeInBytes": 4005,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.014285714285714287
+                        }
+                      ],
+                      "criticality": 0.8571428571428572
+                    },
+                    {
+                      "type": "file",
+                      "name": "cacert.pem",
+                      "extension": ".pem",
+                      "changes": 7,
+                      "sizeInBytes": 2717,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.014285714285714287
+                        }
+                      ],
+                      "criticality": 0.8571428571428572
+                    },
+                    {
+                      "type": "folder",
+                      "name": "intermediate",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "intermediate.cert.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1346,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "serial.old",
+                          "extension": ".old",
+                          "changes": 2,
+                          "sizeInBytes": 5,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.05
+                            }
+                          ],
+                          "criticality": 0.95
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt",
+                          "extension": ".txt",
+                          "changes": 7,
+                          "sizeInBytes": 268,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "intermediate.key.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1704,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "folder",
+                          "name": "newcerts",
+                          "children": [
+                            {
+                              "type": "file",
+                              "name": "1001.pem",
+                              "extension": ".pem",
+                              "changes": 7,
+                              "sizeInBytes": 1391,
+                              "contributors": [
+                                {
+                                  "name": "Stephen Sorriaux",
+                                  "knowledge": 0.14285714285714285
+                                },
+                                {
+                                  "name": "Ryar Nyah",
+                                  "knowledge": 0.014285714285714287
+                                }
+                              ],
+                              "criticality": 0.8571428571428572
+                            },
+                            {
+                              "type": "file",
+                              "name": "1000.pem",
+                              "extension": ".pem",
+                              "changes": 7,
+                              "sizeInBytes": 1448,
+                              "contributors": [
+                                {
+                                  "name": "Stephen Sorriaux",
+                                  "knowledge": 0.14285714285714285
+                                },
+                                {
+                                  "name": "Ryar Nyah",
+                                  "knowledge": 0.014285714285714287
+                                }
+                              ],
+                              "criticality": 0.8571428571428572
+                            },
+                            {
+                              "type": "file",
+                              "name": "1002.pem",
+                              "extension": ".pem",
+                              "changes": 6,
+                              "sizeInBytes": 1192,
+                              "contributors": [
+                                {
+                                  "name": "Stephen Sorriaux",
+                                  "knowledge": 0.16666666666666666
+                                },
+                                {
+                                  "name": "Ryar Nyah",
+                                  "knowledge": 0.016666666666666666
+                                }
+                              ],
+                              "criticality": 0.8333333333333334
+                            }
+                          ],
+                          "criticality": 0.8492063492063493,
+                          "sizeInBytes": 4031,
+                          "number_of_changes": 20,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.16666666666666666
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.016666666666666666
+                            }
+                          ]
+                        },
+                        {
+                          "type": "file",
+                          "name": "intermediate.csr.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1025,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt.attr.old",
+                          "extension": ".old",
+                          "changes": 1,
+                          "sizeInBytes": 21,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt.old",
+                          "extension": ".old",
+                          "changes": 7,
+                          "sizeInBytes": 178,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "serial",
+                          "extension": "",
+                          "changes": 2,
+                          "sizeInBytes": 5,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.05
+                            }
+                          ],
+                          "criticality": 0.95
+                        },
+                        {
+                          "type": "file",
+                          "name": "index.txt.attr",
+                          "extension": ".attr",
+                          "changes": 1,
+                          "sizeInBytes": 21,
+                          "contributors": [
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.09090909090909091
+                            }
+                          ],
+                          "criticality": 0.9090909090909091
+                        }
+                      ],
+                      "criticality": 0.8792929292929292,
+                      "sizeInBytes": 8604,
+                      "number_of_changes": 61,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.16666666666666666
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.09090909090909091
+                        }
+                      ]
+                    },
+                    {
+                      "type": "folder",
+                      "name": "client",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "client.key.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1704,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "client.cert.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1192,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        },
+                        {
+                          "type": "file",
+                          "name": "client.csr.pem",
+                          "extension": ".pem",
+                          "changes": 7,
+                          "sizeInBytes": 1001,
+                          "contributors": [
+                            {
+                              "name": "Stephen Sorriaux",
+                              "knowledge": 0.14285714285714285
+                            },
+                            {
+                              "name": "Ryar Nyah",
+                              "knowledge": 0.014285714285714287
+                            }
+                          ],
+                          "criticality": 0.8571428571428572
+                        }
+                      ],
+                      "criticality": 0.8571428571428572,
+                      "sizeInBytes": 3897,
+                      "number_of_changes": 21,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.14285714285714285
+                        },
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.014285714285714287
+                        }
+                      ]
+                    },
+                    {
+                      "type": "file",
+                      "name": "openssl-ca.cnf",
+                      "extension": ".cnf",
+                      "changes": 1,
+                      "sizeInBytes": 3613,
+                      "contributors": [
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.09090909090909091
+                        }
+                      ],
+                      "criticality": 0.9090909090909091
+                    },
+                    {
+                      "type": "file",
+                      "name": "openssl-intermediate-ca.cnf",
+                      "extension": ".cnf",
+                      "changes": 2,
+                      "sizeInBytes": 3725,
+                      "contributors": [
+                        {
+                          "name": "Ryar Nyah",
+                          "knowledge": 0.05
+                        }
+                      ],
+                      "criticality": 0.95
+                    }
+                  ],
+                  "criticality": 0.8661862527716186,
+                  "sizeInBytes": 71627,
+                  "number_of_changes": 219,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.2
+                    },
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.09090909090909091
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "zoo-tls.cfg",
+                  "extension": ".cfg",
+                  "changes": 1,
+                  "sizeInBytes": 633,
+                  "contributors": [
+                    {
+                      "name": "Ryar Nyah",
+                      "knowledge": 0.1
+                    }
+                  ],
+                  "criticality": 0.9
+                }
+              ],
+              "criticality": 0.8891021606431054,
+              "sizeInBytes": 189210,
+              "number_of_changes": 325,
+              "contributors": [
+                {
+                  "name": "ryarnyah",
+                  "knowledge": 0.045454545454545456
+                },
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.2
+                },
+                {
+                  "name": "Ryar Nyah",
+                  "knowledge": 0.1
+                },
+                {
+                  "name": "Yassine MILHI",
+                  "knowledge": 0.1
+                },
+                {
+                  "name": "Stephen SORRIAUX",
+                  "knowledge": 0.047619047619047616
+                },
+                {
+                  "name": "Bastien Bouclet",
+                  "knowledge": 0.05263157894736842
+                },
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.017857142857142856
+                },
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.08333333333333333
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "scram-kafka-270",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "INSTALL.rst",
+                  "extension": ".rst",
+                  "changes": 1,
+                  "sizeInBytes": 151,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                },
+                {
+                  "type": "file",
+                  "name": "molecule.yml",
+                  "extension": ".yml",
+                  "changes": 3,
+                  "sizeInBytes": 5808,
+                  "contributors": [
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.3333333333333333
+                    },
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.05555555555555555
+                    }
+                  ],
+                  "criticality": 0.6666666666666667
+                },
+                {
+                  "type": "folder",
+                  "name": "tests",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "conftest.py ",
+                      "extension": ".py ",
+                      "changes": 1,
+                      "sizeInBytes": 581,
+                      "contributors": [
+                        {
+                          "name": "Simone Aiello",
+                          "knowledge": 0.16666666666666666
+                        }
+                      ],
+                      "criticality": 0.8333333333333334
+                    },
+                    {
+                      "type": "file",
+                      "name": "test_users.py",
+                      "extension": ".py",
+                      "changes": 2,
+                      "sizeInBytes": 3890,
+                      "contributors": [
+                        {
+                          "name": "Stephen Sorriaux",
+                          "knowledge": 0.5
+                        },
+                        {
+                          "name": "Simone Aiello",
+                          "knowledge": 0.08333333333333333
+                        }
+                      ],
+                      "criticality": 0.5
+                    }
+                  ],
+                  "criticality": 0.6666666666666667,
+                  "sizeInBytes": 4471,
+                  "number_of_changes": 3,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    },
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "Dockerfile.j2",
+                  "extension": ".j2",
+                  "changes": 3,
+                  "sizeInBytes": 1034,
+                  "contributors": [
+                    {
+                      "name": "Pierre MORVAN",
+                      "knowledge": 0.1111111111111111
+                    },
+                    {
+                      "name": "Stephen Sorriaux",
+                      "knowledge": 0.06666666666666667
+                    },
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.05555555555555555
+                    }
+                  ],
+                  "criticality": 0.8888888888888888
+                },
+                {
+                  "type": "file",
+                  "name": "kafka_server_jaas.conf",
+                  "extension": ".conf",
+                  "changes": 1,
+                  "sizeInBytes": 88,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                },
+                {
+                  "type": "file",
+                  "name": "converge.yml",
+                  "extension": ".yml",
+                  "changes": 1,
+                  "sizeInBytes": 844,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                },
+                {
+                  "type": "folder",
+                  "name": "tls",
+                  "children": [
+                    {
+                      "type": "folder",
+                      "name": "zk",
+                      "children": [],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    },
+                    {
+                      "type": "folder",
+                      "name": "keystore",
+                      "children": [],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    },
+                    {
+                      "type": "folder",
+                      "name": "ca",
+                      "children": [
+                        {
+                          "type": "folder",
+                          "name": "newcerts",
+                          "children": [],
+                          "criticality": 0,
+                          "sizeInBytes": 0,
+                          "number_of_changes": 0,
+                          "contributors": []
+                        }
+                      ],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    },
+                    {
+                      "type": "folder",
+                      "name": "server",
+                      "children": [],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    },
+                    {
+                      "type": "folder",
+                      "name": "intermediate",
+                      "children": [
+                        {
+                          "type": "folder",
+                          "name": "newcerts",
+                          "children": [],
+                          "criticality": 0,
+                          "sizeInBytes": 0,
+                          "number_of_changes": 0,
+                          "contributors": []
+                        }
+                      ],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    },
+                    {
+                      "type": "folder",
+                      "name": "client",
+                      "children": [],
+                      "criticality": 0,
+                      "sizeInBytes": 0,
+                      "number_of_changes": 0,
+                      "contributors": []
+                    }
+                  ],
+                  "criticality": 0,
+                  "sizeInBytes": 0,
+                  "number_of_changes": 0,
+                  "contributors": []
+                },
+                {
+                  "type": "file",
+                  "name": "zoo-tls.cfg",
+                  "extension": ".cfg",
+                  "changes": 1,
+                  "sizeInBytes": 633,
+                  "contributors": [
+                    {
+                      "name": "Simone Aiello",
+                      "knowledge": 0.16666666666666666
+                    }
+                  ],
+                  "criticality": 0.8333333333333334
+                }
+              ],
+              "criticality": 0.7777777777777777,
+              "sizeInBytes": 13029,
+              "number_of_changes": 13,
+              "contributors": [
+                {
+                  "name": "Simone Aiello",
+                  "knowledge": 0.16666666666666666
+                },
+                {
+                  "name": "Stephen Sorriaux",
+                  "knowledge": 0.5
+                },
+                {
+                  "name": "Pierre MORVAN",
+                  "knowledge": 0.1111111111111111
+                }
+              ]
+            }
+          ],
+          "criticality": 0.8751866127849395,
+          "sizeInBytes": 202239,
+          "number_of_changes": 338,
+          "contributors": [
+            {
+              "name": "ryarnyah",
+              "knowledge": 0.045454545454545456
+            },
+            {
+              "name": "Stephen Sorriaux",
+              "knowledge": 0.5
+            },
+            {
+              "name": "Ryar Nyah",
+              "knowledge": 0.1
+            },
+            {
+              "name": "Yassine MILHI",
+              "knowledge": 0.1
+            },
+            {
+              "name": "Stephen SORRIAUX",
+              "knowledge": 0.047619047619047616
+            },
+            {
+              "name": "Bastien Bouclet",
+              "knowledge": 0.05263157894736842
+            },
+            {
+              "name": "Simone Aiello",
+              "knowledge": 0.16666666666666666
+            },
+            {
+              "name": "Pierre MORVAN",
+              "knowledge": 0.1111111111111111
+            }
+          ]
+        }
+      ],
+      "criticality": 0.8657680271651239,
+      "sizeInBytes": 452209,
+      "number_of_changes": 627,
+      "contributors": [
+        {
+          "name": "Stephen SORRIAUX",
+          "knowledge": 0.047619047619047616
+        },
+        {
+          "name": "Stephen Sorriaux",
+          "knowledge": 1.0
+        },
+        {
+          "name": "Laurent Oliva",
+          "knowledge": 0.01098901098901099
+        },
+        {
+          "name": "Bastien Bouclet",
+          "knowledge": 0.05263157894736842
+        },
+        {
+          "name": "Stephen",
+          "knowledge": 0.014492753623188406
+        },
+        {
+          "name": "Pierre MORVAN",
+          "knowledge": 0.1111111111111111
+        },
+        {
+          "name": "Simone Aiello",
+          "knowledge": 0.16666666666666666
+        },
+        {
+          "name": "Yassine MILHI",
+          "knowledge": 0.1
+        },
+        {
+          "name": "Ryar Nyah",
+          "knowledge": 0.1
+        },
+        {
+          "name": "dependabot[bot]",
+          "knowledge": 0.006993006993006993
+        },
+        {
+          "name": "ryarnyah",
+          "knowledge": 0.045454545454545456
+        },
+        {
+          "name": "MILHI",
+          "knowledge": 0.03125
+        },
+        {
+          "name": "Felix Dreissig",
+          "knowledge": 0.00196078431372549
+        },
+        {
+          "name": "vgivanov",
+          "knowledge": 0.0017543859649122805
+        },
+        {
+          "name": "teebee",
+          "knowledge": 0.0015151515151515152
+        },
+        {
+          "name": "sandrejevs",
+          "knowledge": 0.010101010101010102
+        },
+        {
+          "name": "Thomas Buchholz",
+          "knowledge": 0.005681818181818182
+        }
+      ]
+    }
+  ]
+}
