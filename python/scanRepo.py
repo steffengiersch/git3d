@@ -81,6 +81,12 @@ def walk_through_repo(repo):
                 print(author_list)
 
 
+def start(repo_path):
+    repo = Repo(repo_path)
+    root = {'children': []}
+    recursive_walk_repo(repo=repo, relative_path=repo_path, current=root)
+    print(root)
+
+
 if '__main__' == __name__:
-    repo = Repo(os.getenv('REPO_PATH'))
-    walk_through_repo(repo)
+    start(os.getenv('REPO_PATH'))
