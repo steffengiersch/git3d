@@ -20,7 +20,7 @@ def extract_author_list(commits_touching_path: list) -> list:
     authors = {}
     for commit in commits_touching_path:
         if commit.author.name not in global_author_list:
-            global_author_list.append({'name': commit.author.name})
+            global_author_list.append(commit.author.name)
         if commit.author.name not in authors:
             points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 30) + 1)
             authors[commit.author.name] = points
@@ -109,7 +109,7 @@ def start(repo_path, out_file_path):
             'url': repo.remotes.origin.url,
             'path': repo_path,
         },
-        'contributors': global_author_list,
+        'contributors': reduce(lambda gal, a: [*gal, {'name': a}],global_author_list, []),
         'filetree': _root['children']
     }
     with open(out_file_path, 'w') as f:
