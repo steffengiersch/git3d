@@ -18,22 +18,22 @@ def extract_author_list(commits_touching_path: list) -> list:
     for commit in commits_touching_path:
         points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 7) + 1)
         authors[commit.author.name] = authors.get(commit.author.name, 0) + points
-    author_list = reduce(lambda al, a: [*al, {'author': a, 'knowledge': authors[a] / len(commits_touching_path)}], authors.keys(), [])
+    author_list = reduce(lambda al, a: [*al, {'name': a, 'knowledge': authors[a] / len(commits_touching_path)}], authors.keys(), [])
     return author_list
 
 
 def merge_author_lists(target_list: list, source_list: list) -> list:
-    target_dict = reduce(lambda td, a: {**td, a['author']: a['knowledge']}, target_list, {})
+    target_dict = reduce(lambda td, a: {**td, a['name']: a['knowledge']}, target_list, {})
     for source_entry in source_list:
-        if source_entry['author'] in target_dict:
-            target_dict[source_entry['author']] += source_entry['knowledge']
+        if source_entry['name'] in target_dict:
+            target_dict[source_entry['name']] += source_entry['knowledge']
         else:
-            target_dict[source_entry['author']] = source_entry['knowledge']
-    return reduce(lambda tl, a: [*tl, {'author': a, 'knowledge': target_dict[a]}], target_dict.keys(), [])
+            target_dict[source_entry['name']] = source_entry['knowledge']
+    return reduce(lambda tl, a: [*tl, {'name': a, 'knowledge': target_dict[a]}], target_dict.keys(), [])
 
 
 def normalize_author_list(author_list: list, number_of_files) -> list:
-    return reduce(lambda al, a: [*al, {'author': a['author'], 'knowledge': a['knowledge'] / number_of_files}], author_list, [])
+    return reduce(lambda al, a: [*al, {'name': a['name'], 'knowledge': a['knowledge'] / number_of_files}], author_list, [])
 
 def recursive_walk_repo(repo, relative_path, current):
     git = repo.git
@@ -70,7 +70,7 @@ def recursive_walk_repo(repo, relative_path, current):
         sum_number_of_files = 0
         folder_descriptor = {
             'type': 'folder',
-            'name': os.path.basename(relative_path),
+            'name': os.path.basename(relative_path) if len(relative_path) > 0 else '.',
             'created': time.ctime(os.path.getctime(abs_path)),
             'last_modified': time.ctime(os.path.getmtime(abs_path)),
             'children': [],
@@ -95,8 +95,16 @@ def recursive_walk_repo(repo, relative_path, current):
 
 def start(repo_path, out_file_path):
     repo = Repo(repo_path)
-    root = {'children': []}
-    recursive_walk_repo(repo=repo, relative_path="", current=root)
+    _root = {'children': []}
+    recursive_walk_repo(repo=repo, relative_path="", current=_root)
+    root = {
+        'repository': {
+            'name': os.path.basename(repo_path),
+            'url': repo.remotes.origin.url,
+            'root': repo_path,
+        },
+        'filetree': _root['children']
+    }
     with open(out_file_path, 'w') as f:
         json.dump(root, f)
 
