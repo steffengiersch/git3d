@@ -1,0 +1,1598 @@
+{
+  "repository": {
+    "name": "git3d",
+    "url": "git@github.com:steffengiersch/git3d.git",
+    "path": "/Users/oliverwidder/dev/github/git3d"
+  },
+  "contributors": [
+    "Steffen Giersch",
+    "Oliver Widder"
+  ],
+  "filetree": [
+    {
+      "type": "folder",
+      "name": ".",
+      "created": "Wed May 22 11:25:30 2024",
+      "last_modified": "Wed May 22 11:25:30 2024",
+      "children": [
+        {
+          "type": "file",
+          "name": ".DS_Store",
+          "extension": "",
+          "created": "Wed May 22 11:25:30 2024",
+          "last_modified": "Wed May 22 11:25:30 2024",
+          "changes": 1,
+          "sizeInBytes": 8196,
+          "contributors": [
+            {
+              "name": "Steffen Giersch",
+              "knowledge": 1.0
+            }
+          ],
+          "criticality": 0.0
+        },
+        {
+          "type": "folder",
+          "name": "python",
+          "created": "Wed May 22 16:18:20 2024",
+          "last_modified": "Wed May 22 16:18:20 2024",
+          "children": [
+            {
+              "type": "folder",
+              "name": "out",
+              "created": "Wed May 22 16:15:03 2024",
+              "last_modified": "Wed May 22 16:15:03 2024",
+              "children": [],
+              "criticality": 0,
+              "sizeInBytes": 0,
+              "number_of_changes": 0,
+              "contributors": []
+            },
+            {
+              "type": "file",
+              "name": "scanRepo.py",
+              "extension": ".py",
+              "created": "Wed May 22 16:18:20 2024",
+              "last_modified": "Wed May 22 16:18:20 2024",
+              "changes": 13,
+              "sizeInBytes": 5256,
+              "contributors": [
+                {
+                  "name": "Oliver Widder",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            }
+          ],
+          "criticality": 0.0,
+          "sizeInBytes": 5256,
+          "number_of_changes": 13,
+          "contributors": [
+            {
+              "name": "Oliver Widder",
+              "knowledge": 1.0
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "ProjectSettings",
+          "created": "Wed May 22 14:49:42 2024",
+          "last_modified": "Wed May 22 14:49:42 2024",
+          "children": [
+            {
+              "type": "file",
+              "name": "ShaderGraphSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 463,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "ProjectSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 25004,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "InputManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 9731,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "TimeManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 202,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "MultiplayerManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 157,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "VersionControlSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 188,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "SceneTemplateSettings.json",
+              "extension": ".json",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "changes": 1,
+              "sizeInBytes": 3535,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "GraphicsSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 2568,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "XRSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 158,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "PresetManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 146,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "UnityConnectSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 943,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "EditorSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1518,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "EditorBuildSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 407,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "ClusterInputManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 114,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "TagManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 657,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "NavMeshAreas.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1308,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "Physics2DSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 2028,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "URPProjectSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 410,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "PackageManagerSettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1003,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "AudioManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 413,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "VFXManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 308,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "DynamicsManager.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1254,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "QualitySettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 3662,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "MemorySettings.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1192,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "ProjectVersion.txt",
+              "extension": ".txt",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 83,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            }
+          ],
+          "criticality": 0.0,
+          "sizeInBytes": 57452,
+          "number_of_changes": 25,
+          "contributors": [
+            {
+              "name": "Steffen Giersch",
+              "knowledge": 1.0
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": ".gitignore",
+          "extension": "",
+          "created": "Wed May 22 11:25:18 2024",
+          "last_modified": "Wed May 22 11:25:18 2024",
+          "changes": 3,
+          "sizeInBytes": 7370,
+          "contributors": [
+            {
+              "name": "Oliver Widder",
+              "knowledge": 0.3333333333333333
+            },
+            {
+              "name": "Steffen Giersch",
+              "knowledge": 0.6666666666666666
+            }
+          ],
+          "criticality": 0.0
+        },
+        {
+          "type": "folder",
+          "name": "Packages",
+          "created": "Wed May 22 10:59:13 2024",
+          "last_modified": "Wed May 22 10:59:13 2024",
+          "children": [
+            {
+              "type": "file",
+              "name": "manifest.json",
+              "extension": ".json",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1868,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "packages-lock.json",
+              "extension": ".json",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 12244,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            }
+          ],
+          "criticality": 0.0,
+          "sizeInBytes": 14112,
+          "number_of_changes": 2,
+          "contributors": [
+            {
+              "name": "Steffen Giersch",
+              "knowledge": 1.0
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Assets",
+          "created": "Wed May 22 14:49:42 2024",
+          "last_modified": "Wed May 22 14:49:42 2024",
+          "children": [
+            {
+              "type": "file",
+              "name": "Readme.asset",
+              "extension": ".asset",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 1144,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "folder",
+              "name": "Settings",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "SampleSceneProfile.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 182,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "DefaultVolumeProfile.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 23987,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "PC_RPAsset.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 4364,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Mobile_Renderer.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "UniversalRenderPipelineGlobalSettings.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 14197,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "UniversalRenderPipelineGlobalSettings.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "PC_RPAsset.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Mobile_RPAsset.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 4345,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "SampleSceneProfile.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 3703,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Mobile_RPAsset.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "DefaultVolumeProfile.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Mobile_Renderer.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 2189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "PC_Renderer.asset.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 189,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "PC_Renderer.asset",
+                  "extension": ".asset",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 3439,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 57540,
+              "number_of_changes": 14,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Scenes",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "SampleScene.unity",
+                  "extension": ".unity",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 2,
+                  "sizeInBytes": 12902,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "SampleScene.unity.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 155,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 13057,
+              "number_of_changes": 3,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": ".DS_Store",
+              "extension": "",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 6148,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "folder",
+              "name": "Prefabs",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "Node.prefab",
+                  "extension": ".prefab",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 4434,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Edge.prefab",
+                  "extension": ".prefab",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 3950,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Node.prefab.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 154,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Edge.prefab.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 154,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 8692,
+              "number_of_changes": 4,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "Readme.asset.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 182,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "InputSystem_Actions.inputactions.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 376,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "Scripts.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "InputSystem_Actions.inputactions",
+              "extension": ".inputactions",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 41005,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "Prefabs.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "folder",
+              "name": "Scripts",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "template.json.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 158,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "template.json",
+                  "extension": ".json",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 816,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "EdgeController.cs",
+                  "extension": ".cs",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 1076,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "NodeController.cs.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 59,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "NodeController.cs",
+                  "extension": ".cs",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 101,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "EdgeController.cs.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 59,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "FiletreeManager.cs.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 59,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "FiletreeManager.cs",
+                  "extension": ".cs",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 1,
+                  "sizeInBytes": 3730,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 6058,
+              "number_of_changes": 8,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "TutorialInfo",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": ".DS_Store",
+                  "extension": "",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 6148,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Layout.wlt",
+                  "extension": ".wlt",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 15479,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Scripts.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 193,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "Layout.wlt.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 176,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "folder",
+                  "name": "Icons",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "URP.png",
+                      "extension": ".png",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "changes": 1,
+                      "sizeInBytes": 24069,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ],
+                      "criticality": 0.0
+                    },
+                    {
+                      "type": "file",
+                      "name": "URP.png.meta",
+                      "extension": ".meta",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "changes": 1,
+                      "sizeInBytes": 3156,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ],
+                      "criticality": 0.0
+                    }
+                  ],
+                  "criticality": 0.0,
+                  "sizeInBytes": 27225,
+                  "number_of_changes": 2,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Scripts",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "Editor.meta",
+                      "extension": ".meta",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "changes": 1,
+                      "sizeInBytes": 193,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ],
+                      "criticality": 0.0
+                    },
+                    {
+                      "type": "file",
+                      "name": "Readme.cs",
+                      "extension": ".cs",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "changes": 1,
+                      "sizeInBytes": 302,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ],
+                      "criticality": 0.0
+                    },
+                    {
+                      "type": "file",
+                      "name": "Readme.cs.meta",
+                      "extension": ".meta",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "changes": 1,
+                      "sizeInBytes": 317,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ],
+                      "criticality": 0.0
+                    },
+                    {
+                      "type": "folder",
+                      "name": "Editor",
+                      "created": "Wed May 22 10:59:13 2024",
+                      "last_modified": "Wed May 22 10:59:13 2024",
+                      "children": [
+                        {
+                          "type": "file",
+                          "name": "ReadmeEditor.cs.meta",
+                          "extension": ".meta",
+                          "created": "Wed May 22 10:59:13 2024",
+                          "last_modified": "Wed May 22 10:59:13 2024",
+                          "changes": 1,
+                          "sizeInBytes": 264,
+                          "contributors": [
+                            {
+                              "name": "Steffen Giersch",
+                              "knowledge": 1.0
+                            }
+                          ],
+                          "criticality": 0.0
+                        },
+                        {
+                          "type": "file",
+                          "name": "ReadmeEditor.cs",
+                          "extension": ".cs",
+                          "created": "Wed May 22 10:59:13 2024",
+                          "last_modified": "Wed May 22 10:59:13 2024",
+                          "changes": 1,
+                          "sizeInBytes": 6677,
+                          "contributors": [
+                            {
+                              "name": "Steffen Giersch",
+                              "knowledge": 1.0
+                            }
+                          ],
+                          "criticality": 0.0
+                        }
+                      ],
+                      "criticality": 0.0,
+                      "sizeInBytes": 6941,
+                      "number_of_changes": 2,
+                      "contributors": [
+                        {
+                          "name": "Steffen Giersch",
+                          "knowledge": 1.0
+                        }
+                      ]
+                    }
+                  ],
+                  "criticality": 0.0,
+                  "sizeInBytes": 7753,
+                  "number_of_changes": 5,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "Icons.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 193,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 57167,
+              "number_of_changes": 12,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "Ressources.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "TutorialInfo.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "folder",
+              "name": "Ressources",
+              "created": "Wed May 22 14:49:42 2024",
+              "last_modified": "Wed May 22 14:49:42 2024",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "dummy.json",
+                  "extension": ".json",
+                  "created": "Wed May 22 14:49:42 2024",
+                  "last_modified": "Wed May 22 14:49:42 2024",
+                  "changes": 2,
+                  "sizeInBytes": 16591,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "dummy.json.meta",
+                  "extension": ".meta",
+                  "created": "Wed May 22 10:59:13 2024",
+                  "last_modified": "Wed May 22 10:59:13 2024",
+                  "changes": 1,
+                  "sizeInBytes": 158,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 16749,
+              "number_of_changes": 3,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "Settings.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
+              "name": "Scenes.meta",
+              "extension": ".meta",
+              "created": "Wed May 22 10:59:13 2024",
+              "last_modified": "Wed May 22 10:59:13 2024",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            }
+          ],
+          "criticality": 0.0,
+          "sizeInBytes": 209150,
+          "number_of_changes": 55,
+          "contributors": [
+            {
+              "name": "Steffen Giersch",
+              "knowledge": 1.0
+            }
+          ]
+        }
+      ],
+      "criticality": 0.0,
+      "sizeInBytes": 301536,
+      "number_of_changes": 99,
+      "contributors": [
+        {
+          "name": "Steffen Giersch",
+          "knowledge": 0.9839357429718876
+        },
+        {
+          "name": "Oliver Widder",
+          "knowledge": 0.01606425702811245
+        }
+      ]
+    }
+  ]
+}

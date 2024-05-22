@@ -13,9 +13,14 @@ def is_file_in_git(git, file_path: str):
         return False
 
 
+global_author_list = []
+
+
 def extract_author_list(commits_touching_path: list) -> list:
     authors = {}
     for commit in commits_touching_path:
+        if commit.author.name not in global_author_list:
+            global_author_list.append(commit.author.name)
         points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 7) + 1)
         authors[commit.author.name] = authors.get(commit.author.name, 0) + points
     author_list = reduce(lambda al, a: [*al, {'name': a, 'knowledge': authors[a] / len(commits_touching_path)}], authors.keys(), [])
@@ -101,8 +106,9 @@ def start(repo_path, out_file_path):
         'repository': {
             'name': os.path.basename(repo_path),
             'url': repo.remotes.origin.url,
-            'root': repo_path,
+            'path': repo_path,
         },
+        'contributors': global_author_list,
         'filetree': _root['children']
     }
     with open(out_file_path, 'w') as f:
