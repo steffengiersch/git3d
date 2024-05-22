@@ -12,15 +12,11 @@
     {
       "type": "folder",
       "name": ".",
-      "created": "Wed May 22 11:25:30 2024",
-      "last_modified": "Wed May 22 11:25:30 2024",
       "children": [
         {
           "type": "file",
           "name": ".DS_Store",
           "extension": "",
-          "created": "Wed May 22 11:25:30 2024",
-          "last_modified": "Wed May 22 11:25:30 2024",
           "changes": 1,
           "sizeInBytes": 8196,
           "contributors": [
@@ -34,28 +30,13 @@
         {
           "type": "folder",
           "name": "python",
-          "created": "Wed May 22 16:18:20 2024",
-          "last_modified": "Wed May 22 16:18:20 2024",
           "children": [
-            {
-              "type": "folder",
-              "name": "out",
-              "created": "Wed May 22 16:15:03 2024",
-              "last_modified": "Wed May 22 16:15:03 2024",
-              "children": [],
-              "criticality": 0,
-              "sizeInBytes": 0,
-              "number_of_changes": 0,
-              "contributors": []
-            },
             {
               "type": "file",
               "name": "scanRepo.py",
               "extension": ".py",
-              "created": "Wed May 22 16:18:20 2024",
-              "last_modified": "Wed May 22 16:18:20 2024",
-              "changes": 13,
-              "sizeInBytes": 5256,
+              "changes": 15,
+              "sizeInBytes": 5034,
               "contributors": [
                 {
                   "name": "Oliver Widder",
@@ -63,11 +44,54 @@
                 }
               ],
               "criticality": 0.0
+            },
+            {
+              "type": "folder",
+              "name": "json",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "git3d.json",
+                  "extension": ".json",
+                  "changes": 1,
+                  "sizeInBytes": 53697,
+                  "contributors": [
+                    {
+                      "name": "Oliver Widder",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "ansible-kafka-admin.json",
+                  "extension": ".json",
+                  "changes": 1,
+                  "sizeInBytes": 105493,
+                  "contributors": [
+                    {
+                      "name": "Oliver Widder",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 159190,
+              "number_of_changes": 2,
+              "contributors": [
+                {
+                  "name": "Oliver Widder",
+                  "knowledge": 1.0
+                }
+              ]
             }
           ],
           "criticality": 0.0,
-          "sizeInBytes": 5256,
-          "number_of_changes": 13,
+          "sizeInBytes": 164224,
+          "number_of_changes": 17,
           "contributors": [
             {
               "name": "Oliver Widder",
@@ -78,15 +102,11 @@
         {
           "type": "folder",
           "name": "ProjectSettings",
-          "created": "Wed May 22 14:49:42 2024",
-          "last_modified": "Wed May 22 14:49:42 2024",
           "children": [
             {
               "type": "file",
               "name": "ShaderGraphSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 463,
               "contributors": [
@@ -101,8 +121,6 @@
               "type": "file",
               "name": "ProjectSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 25004,
               "contributors": [
@@ -117,8 +135,6 @@
               "type": "file",
               "name": "InputManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 9731,
               "contributors": [
@@ -133,8 +149,6 @@
               "type": "file",
               "name": "TimeManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 202,
               "contributors": [
@@ -149,8 +163,6 @@
               "type": "file",
               "name": "MultiplayerManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 157,
               "contributors": [
@@ -165,8 +177,6 @@
               "type": "file",
               "name": "VersionControlSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 188,
               "contributors": [
@@ -181,8 +191,6 @@
               "type": "file",
               "name": "SceneTemplateSettings.json",
               "extension": ".json",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "changes": 1,
               "sizeInBytes": 3535,
               "contributors": [
@@ -197,8 +205,6 @@
               "type": "file",
               "name": "GraphicsSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 2568,
               "contributors": [
@@ -213,8 +219,6 @@
               "type": "file",
               "name": "XRSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 158,
               "contributors": [
@@ -229,8 +233,6 @@
               "type": "file",
               "name": "PresetManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 146,
               "contributors": [
@@ -245,8 +247,6 @@
               "type": "file",
               "name": "UnityConnectSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 943,
               "contributors": [
@@ -261,8 +261,6 @@
               "type": "file",
               "name": "EditorSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1518,
               "contributors": [
@@ -277,8 +275,6 @@
               "type": "file",
               "name": "EditorBuildSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 407,
               "contributors": [
@@ -293,8 +289,6 @@
               "type": "file",
               "name": "ClusterInputManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 114,
               "contributors": [
@@ -309,8 +303,6 @@
               "type": "file",
               "name": "TagManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 657,
               "contributors": [
@@ -325,8 +317,6 @@
               "type": "file",
               "name": "NavMeshAreas.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1308,
               "contributors": [
@@ -341,8 +331,6 @@
               "type": "file",
               "name": "Physics2DSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 2028,
               "contributors": [
@@ -357,8 +345,6 @@
               "type": "file",
               "name": "URPProjectSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 410,
               "contributors": [
@@ -373,8 +359,6 @@
               "type": "file",
               "name": "PackageManagerSettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1003,
               "contributors": [
@@ -389,8 +373,6 @@
               "type": "file",
               "name": "AudioManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 413,
               "contributors": [
@@ -405,8 +387,6 @@
               "type": "file",
               "name": "VFXManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 308,
               "contributors": [
@@ -421,8 +401,6 @@
               "type": "file",
               "name": "DynamicsManager.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1254,
               "contributors": [
@@ -437,8 +415,6 @@
               "type": "file",
               "name": "QualitySettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 3662,
               "contributors": [
@@ -453,8 +429,6 @@
               "type": "file",
               "name": "MemorySettings.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1192,
               "contributors": [
@@ -469,8 +443,6 @@
               "type": "file",
               "name": "ProjectVersion.txt",
               "extension": ".txt",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 83,
               "contributors": [
@@ -496,18 +468,16 @@
           "type": "file",
           "name": ".gitignore",
           "extension": "",
-          "created": "Wed May 22 11:25:18 2024",
-          "last_modified": "Wed May 22 11:25:18 2024",
           "changes": 3,
           "sizeInBytes": 7370,
           "contributors": [
             {
               "name": "Oliver Widder",
-              "knowledge": 0.3333333333333333
+              "knowledge": 1.0
             },
             {
               "name": "Steffen Giersch",
-              "knowledge": 0.6666666666666666
+              "knowledge": 1.0
             }
           ],
           "criticality": 0.0
@@ -515,15 +485,11 @@
         {
           "type": "folder",
           "name": "Packages",
-          "created": "Wed May 22 10:59:13 2024",
-          "last_modified": "Wed May 22 10:59:13 2024",
           "children": [
             {
               "type": "file",
               "name": "manifest.json",
               "extension": ".json",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1868,
               "contributors": [
@@ -538,8 +504,6 @@
               "type": "file",
               "name": "packages-lock.json",
               "extension": ".json",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 12244,
               "contributors": [
@@ -564,15 +528,11 @@
         {
           "type": "folder",
           "name": "Assets",
-          "created": "Wed May 22 14:49:42 2024",
-          "last_modified": "Wed May 22 14:49:42 2024",
           "children": [
             {
               "type": "file",
               "name": "Readme.asset",
               "extension": ".asset",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 1144,
               "contributors": [
@@ -586,15 +546,11 @@
             {
               "type": "folder",
               "name": "Settings",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "children": [
                 {
                   "type": "file",
                   "name": "SampleSceneProfile.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 182,
                   "contributors": [
@@ -609,8 +565,6 @@
                   "type": "file",
                   "name": "DefaultVolumeProfile.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 23987,
                   "contributors": [
@@ -625,8 +579,6 @@
                   "type": "file",
                   "name": "PC_RPAsset.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 4364,
                   "contributors": [
@@ -641,8 +593,6 @@
                   "type": "file",
                   "name": "Mobile_Renderer.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -657,8 +607,6 @@
                   "type": "file",
                   "name": "UniversalRenderPipelineGlobalSettings.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 14197,
                   "contributors": [
@@ -673,8 +621,6 @@
                   "type": "file",
                   "name": "UniversalRenderPipelineGlobalSettings.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -689,8 +635,6 @@
                   "type": "file",
                   "name": "PC_RPAsset.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -705,8 +649,6 @@
                   "type": "file",
                   "name": "Mobile_RPAsset.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 4345,
                   "contributors": [
@@ -721,8 +663,6 @@
                   "type": "file",
                   "name": "SampleSceneProfile.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 3703,
                   "contributors": [
@@ -737,8 +677,6 @@
                   "type": "file",
                   "name": "Mobile_RPAsset.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -753,8 +691,6 @@
                   "type": "file",
                   "name": "DefaultVolumeProfile.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -769,8 +705,6 @@
                   "type": "file",
                   "name": "Mobile_Renderer.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 2189,
                   "contributors": [
@@ -785,8 +719,6 @@
                   "type": "file",
                   "name": "PC_Renderer.asset.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 189,
                   "contributors": [
@@ -801,8 +733,6 @@
                   "type": "file",
                   "name": "PC_Renderer.asset",
                   "extension": ".asset",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 3439,
                   "contributors": [
@@ -827,17 +757,13 @@
             {
               "type": "folder",
               "name": "Scenes",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "children": [
                 {
                   "type": "file",
                   "name": "SampleScene.unity",
                   "extension": ".unity",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 2,
-                  "sizeInBytes": 12902,
+                  "changes": 3,
+                  "sizeInBytes": 12877,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -850,8 +776,6 @@
                   "type": "file",
                   "name": "SampleScene.unity.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 155,
                   "contributors": [
@@ -864,8 +788,79 @@
                 }
               ],
               "criticality": 0.0,
-              "sizeInBytes": 13057,
-              "number_of_changes": 3,
+              "sizeInBytes": 13032,
+              "number_of_changes": 4,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Materials",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "NodeMaterial.mat.meta",
+                  "extension": ".meta",
+                  "changes": 1,
+                  "sizeInBytes": 188,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "EdgeMaterial.mat.meta",
+                  "extension": ".meta",
+                  "changes": 1,
+                  "sizeInBytes": 188,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "EdgeMaterial.mat",
+                  "extension": ".mat",
+                  "changes": 1,
+                  "sizeInBytes": 3762,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                },
+                {
+                  "type": "file",
+                  "name": "NodeMaterial.mat",
+                  "extension": ".mat",
+                  "changes": 1,
+                  "sizeInBytes": 3700,
+                  "contributors": [
+                    {
+                      "name": "Steffen Giersch",
+                      "knowledge": 1.0
+                    }
+                  ],
+                  "criticality": 0.0
+                }
+              ],
+              "criticality": 0.0,
+              "sizeInBytes": 7838,
+              "number_of_changes": 4,
               "contributors": [
                 {
                   "name": "Steffen Giersch",
@@ -877,8 +872,6 @@
               "type": "file",
               "name": ".DS_Store",
               "extension": "",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 6148,
               "contributors": [
@@ -892,17 +885,13 @@
             {
               "type": "folder",
               "name": "Prefabs",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "children": [
                 {
                   "type": "file",
                   "name": "Node.prefab",
                   "extension": ".prefab",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 1,
-                  "sizeInBytes": 4434,
+                  "changes": 2,
+                  "sizeInBytes": 4592,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -915,10 +904,8 @@
                   "type": "file",
                   "name": "Edge.prefab",
                   "extension": ".prefab",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 1,
-                  "sizeInBytes": 3950,
+                  "changes": 2,
+                  "sizeInBytes": 4005,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -931,8 +918,6 @@
                   "type": "file",
                   "name": "Node.prefab.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 154,
                   "contributors": [
@@ -947,8 +932,6 @@
                   "type": "file",
                   "name": "Edge.prefab.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 154,
                   "contributors": [
@@ -961,8 +944,8 @@
                 }
               ],
               "criticality": 0.0,
-              "sizeInBytes": 8692,
-              "number_of_changes": 4,
+              "sizeInBytes": 8905,
+              "number_of_changes": 6,
               "contributors": [
                 {
                   "name": "Steffen Giersch",
@@ -974,8 +957,6 @@
               "type": "file",
               "name": "Readme.asset.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 182,
               "contributors": [
@@ -990,8 +971,6 @@
               "type": "file",
               "name": "InputSystem_Actions.inputactions.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 376,
               "contributors": [
@@ -1006,8 +985,6 @@
               "type": "file",
               "name": "Scripts.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1022,8 +999,6 @@
               "type": "file",
               "name": "InputSystem_Actions.inputactions",
               "extension": ".inputactions",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 41005,
               "contributors": [
@@ -1036,10 +1011,22 @@
             },
             {
               "type": "file",
+              "name": "Materials.meta",
+              "extension": ".meta",
+              "changes": 1,
+              "sizeInBytes": 172,
+              "contributors": [
+                {
+                  "name": "Steffen Giersch",
+                  "knowledge": 1.0
+                }
+              ],
+              "criticality": 0.0
+            },
+            {
+              "type": "file",
               "name": "Prefabs.meta",
               "extension": ".meta",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1053,15 +1040,11 @@
             {
               "type": "folder",
               "name": "Scripts",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "children": [
                 {
                   "type": "file",
                   "name": "template.json.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 158,
                   "contributors": [
@@ -1076,10 +1059,8 @@
                   "type": "file",
                   "name": "template.json",
                   "extension": ".json",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
-                  "changes": 1,
-                  "sizeInBytes": 816,
+                  "changes": 2,
+                  "sizeInBytes": 791,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -1092,8 +1073,6 @@
                   "type": "file",
                   "name": "EdgeController.cs",
                   "extension": ".cs",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 1076,
                   "contributors": [
@@ -1108,8 +1087,6 @@
                   "type": "file",
                   "name": "NodeController.cs.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 59,
                   "contributors": [
@@ -1124,10 +1101,8 @@
                   "type": "file",
                   "name": "NodeController.cs",
                   "extension": ".cs",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 1,
-                  "sizeInBytes": 101,
+                  "changes": 2,
+                  "sizeInBytes": 1705,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -1140,8 +1115,6 @@
                   "type": "file",
                   "name": "EdgeController.cs.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 59,
                   "contributors": [
@@ -1156,8 +1129,6 @@
                   "type": "file",
                   "name": "FiletreeManager.cs.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
                   "changes": 1,
                   "sizeInBytes": 59,
                   "contributors": [
@@ -1172,10 +1143,8 @@
                   "type": "file",
                   "name": "FiletreeManager.cs",
                   "extension": ".cs",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 1,
-                  "sizeInBytes": 3730,
+                  "changes": 2,
+                  "sizeInBytes": 4762,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -1186,8 +1155,8 @@
                 }
               ],
               "criticality": 0.0,
-              "sizeInBytes": 6058,
-              "number_of_changes": 8,
+              "sizeInBytes": 8669,
+              "number_of_changes": 11,
               "contributors": [
                 {
                   "name": "Steffen Giersch",
@@ -1198,15 +1167,11 @@
             {
               "type": "folder",
               "name": "TutorialInfo",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "children": [
                 {
                   "type": "file",
                   "name": ".DS_Store",
                   "extension": "",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 6148,
                   "contributors": [
@@ -1221,8 +1186,6 @@
                   "type": "file",
                   "name": "Layout.wlt",
                   "extension": ".wlt",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 15479,
                   "contributors": [
@@ -1237,8 +1200,6 @@
                   "type": "file",
                   "name": "Scripts.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 193,
                   "contributors": [
@@ -1253,8 +1214,6 @@
                   "type": "file",
                   "name": "Layout.wlt.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 176,
                   "contributors": [
@@ -1268,15 +1227,11 @@
                 {
                   "type": "folder",
                   "name": "Icons",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "children": [
                     {
                       "type": "file",
                       "name": "URP.png",
                       "extension": ".png",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "changes": 1,
                       "sizeInBytes": 24069,
                       "contributors": [
@@ -1291,8 +1246,6 @@
                       "type": "file",
                       "name": "URP.png.meta",
                       "extension": ".meta",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "changes": 1,
                       "sizeInBytes": 3156,
                       "contributors": [
@@ -1317,15 +1270,11 @@
                 {
                   "type": "folder",
                   "name": "Scripts",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "children": [
                     {
                       "type": "file",
                       "name": "Editor.meta",
                       "extension": ".meta",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "changes": 1,
                       "sizeInBytes": 193,
                       "contributors": [
@@ -1340,8 +1289,6 @@
                       "type": "file",
                       "name": "Readme.cs",
                       "extension": ".cs",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "changes": 1,
                       "sizeInBytes": 302,
                       "contributors": [
@@ -1356,8 +1303,6 @@
                       "type": "file",
                       "name": "Readme.cs.meta",
                       "extension": ".meta",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "changes": 1,
                       "sizeInBytes": 317,
                       "contributors": [
@@ -1371,15 +1316,11 @@
                     {
                       "type": "folder",
                       "name": "Editor",
-                      "created": "Wed May 22 10:59:13 2024",
-                      "last_modified": "Wed May 22 10:59:13 2024",
                       "children": [
                         {
                           "type": "file",
                           "name": "ReadmeEditor.cs.meta",
                           "extension": ".meta",
-                          "created": "Wed May 22 10:59:13 2024",
-                          "last_modified": "Wed May 22 10:59:13 2024",
                           "changes": 1,
                           "sizeInBytes": 264,
                           "contributors": [
@@ -1394,8 +1335,6 @@
                           "type": "file",
                           "name": "ReadmeEditor.cs",
                           "extension": ".cs",
-                          "created": "Wed May 22 10:59:13 2024",
-                          "last_modified": "Wed May 22 10:59:13 2024",
                           "changes": 1,
                           "sizeInBytes": 6677,
                           "contributors": [
@@ -1432,8 +1371,6 @@
                   "type": "file",
                   "name": "Icons.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 193,
                   "contributors": [
@@ -1459,8 +1396,6 @@
               "type": "file",
               "name": "Ressources.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1475,8 +1410,6 @@
               "type": "file",
               "name": "TutorialInfo.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1490,17 +1423,13 @@
             {
               "type": "folder",
               "name": "Ressources",
-              "created": "Wed May 22 14:49:42 2024",
-              "last_modified": "Wed May 22 14:49:42 2024",
               "children": [
                 {
                   "type": "file",
                   "name": "dummy.json",
                   "extension": ".json",
-                  "created": "Wed May 22 14:49:42 2024",
-                  "last_modified": "Wed May 22 14:49:42 2024",
-                  "changes": 2,
-                  "sizeInBytes": 16591,
+                  "changes": 3,
+                  "sizeInBytes": 17636,
                   "contributors": [
                     {
                       "name": "Steffen Giersch",
@@ -1513,8 +1442,6 @@
                   "type": "file",
                   "name": "dummy.json.meta",
                   "extension": ".meta",
-                  "created": "Wed May 22 10:59:13 2024",
-                  "last_modified": "Wed May 22 10:59:13 2024",
                   "changes": 1,
                   "sizeInBytes": 158,
                   "contributors": [
@@ -1527,8 +1454,8 @@
                 }
               ],
               "criticality": 0.0,
-              "sizeInBytes": 16749,
-              "number_of_changes": 3,
+              "sizeInBytes": 17794,
+              "number_of_changes": 4,
               "contributors": [
                 {
                   "name": "Steffen Giersch",
@@ -1540,8 +1467,6 @@
               "type": "file",
               "name": "Settings.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1556,8 +1481,6 @@
               "type": "file",
               "name": "Scenes.meta",
               "extension": ".meta",
-              "created": "Wed May 22 10:59:13 2024",
-              "last_modified": "Wed May 22 10:59:13 2024",
               "changes": 1,
               "sizeInBytes": 172,
               "contributors": [
@@ -1570,8 +1493,8 @@
             }
           ],
           "criticality": 0.0,
-          "sizeInBytes": 209150,
-          "number_of_changes": 55,
+          "sizeInBytes": 221004,
+          "number_of_changes": 67,
           "contributors": [
             {
               "name": "Steffen Giersch",
@@ -1581,16 +1504,16 @@
         }
       ],
       "criticality": 0.0,
-      "sizeInBytes": 301536,
-      "number_of_changes": 99,
+      "sizeInBytes": 472358,
+      "number_of_changes": 115,
       "contributors": [
         {
           "name": "Steffen Giersch",
-          "knowledge": 0.9839357429718876
+          "knowledge": 0.9666666666666667
         },
         {
           "name": "Oliver Widder",
-          "knowledge": 0.01606425702811245
+          "knowledge": 0.044444444444444446
         }
       ]
     }

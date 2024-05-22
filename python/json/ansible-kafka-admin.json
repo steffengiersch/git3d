@@ -37,10 +37,10 @@
           "contributors": [
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.043478260869565216
+              "knowledge": 0.013333333333333334
             }
           ],
-          "criticality": 0.9565217391304348
+          "criticality": 0.9866666666666667
         },
         {
           "type": "file",
@@ -51,26 +51,26 @@
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.14285714285714285
+              "knowledge": 0.25
             },
             {
               "name": "Laurent Oliva",
-              "knowledge": 0.01098901098901099
+              "knowledge": 0.023809523809523808
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.01020408163265306
+              "knowledge": 0.022222222222222223
             },
             {
               "name": "Bastien Bouclet",
-              "knowledge": 0.007518796992481203
+              "knowledge": 0.015625
             },
             {
               "name": "Stephen",
-              "knowledge": 0.006211180124223602
+              "knowledge": 0.013333333333333334
             }
           ],
-          "criticality": 0.8571428571428572
+          "criticality": 0.75
         },
         {
           "type": "file",
@@ -81,10 +81,10 @@
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.1
+              "knowledge": 0.06666666666666667
             }
           ],
-          "criticality": 0.9
+          "criticality": 0.9333333333333333
         },
         {
           "type": "file",
@@ -95,34 +95,34 @@
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.07692307692307693
+              "knowledge": 0.25
             },
             {
               "name": "Pierre MORVAN",
-              "knowledge": 0.019230769230769232
+              "knowledge": 0.07692307692307693
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.01282051282051282
+              "knowledge": 0.05
             },
             {
               "name": "Yassine MILHI",
-              "knowledge": 0.007692307692307693
+              "knowledge": 0.030303030303030304
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.006993006993006993
+              "knowledge": 0.029411764705882353
             },
             {
               "name": "dependabot[bot]",
-              "knowledge": 0.006993006993006993
+              "knowledge": 0.02702702702702703
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.005128205128205128
+              "knowledge": 0.02040816326530612
             }
           ],
-          "criticality": 0.9230769230769231
+          "criticality": 0.75
         },
         {
           "type": "file",
@@ -133,14 +133,14 @@
           "contributors": [
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.025641025641025644
+              "knowledge": 0.024390243902439025
             },
             {
               "name": "Stephen",
-              "knowledge": 0.014492753623188406
+              "knowledge": 0.013333333333333334
             }
           ],
-          "criticality": 0.9743589743589743
+          "criticality": 0.975609756097561
         },
         {
           "type": "folder",
@@ -159,14 +159,14 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.5
+                      "knowledge": 0.25
                     },
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.5
+                  "criticality": 0.75
                 },
                 {
                   "type": "file",
@@ -177,42 +177,42 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.5
+                      "knowledge": 0.25
                     },
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.07142857142857142
+                      "knowledge": 0.043478260869565216
                     }
                   ],
-                  "criticality": 0.5
+                  "criticality": 0.75
                 }
               ],
-              "criticality": 0.5,
+              "criticality": 0.75,
               "sizeInBytes": 1823,
               "number_of_changes": 4,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.5
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.04673913043478261
                 }
               ]
             }
           ],
-          "criticality": 0.5,
+          "criticality": 0.75,
           "sizeInBytes": 1823,
           "number_of_changes": 4,
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.5
+              "knowledge": 0.25
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.08333333333333333
+              "knowledge": 0.04673913043478261
             }
           ]
         },
@@ -229,27 +229,27 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.022222222222222223
+                  "knowledge": 0.02127659574468085
                 },
                 {
                   "name": "Stephen",
-                  "knowledge": 0.014492753623188406
+                  "knowledge": 0.013333333333333334
                 }
               ],
-              "criticality": 0.9777777777777777
+              "criticality": 0.9787234042553191
             }
           ],
-          "criticality": 0.9777777777777777,
+          "criticality": 0.9787234042553191,
           "sizeInBytes": 352,
           "number_of_changes": 3,
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.022222222222222223
+              "knowledge": 0.02127659574468085
             },
             {
               "name": "Stephen",
-              "knowledge": 0.014492753623188406
+              "knowledge": 0.013333333333333334
             }
           ]
         },
@@ -266,18 +266,18 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.14285714285714285
+                  "knowledge": 0.5
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.015873015873015872
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.014285714285714287
+                  "knowledge": 0.03225806451612903
                 }
               ],
-              "criticality": 0.8571428571428572
+              "criticality": 0.5
             },
             {
               "type": "file",
@@ -292,11 +292,11 @@
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.03571428571428571
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.025
+                  "knowledge": 0.03225806451612903
                 }
               ],
               "criticality": 0.75
@@ -310,14 +310,14 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.5
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.05
                 }
               ],
-              "criticality": 0.5
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -328,14 +328,14 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.5
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.05
                 }
               ],
-              "criticality": 0.5
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -346,42 +346,42 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.03333333333333333
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.0033333333333333335
+                  "knowledge": 0.03225806451612903
                 },
                 {
                   "name": "Stephen SORRIAUX",
-                  "knowledge": 0.0023809523809523807
+                  "knowledge": 0.022222222222222223
                 },
                 {
                   "name": "MILHI",
-                  "knowledge": 0.0020833333333333333
+                  "knowledge": 0.0196078431372549
                 },
                 {
                   "name": "Felix Dreissig",
-                  "knowledge": 0.00196078431372549
+                  "knowledge": 0.01818181818181818
                 },
                 {
                   "name": "vgivanov",
-                  "knowledge": 0.0017543859649122805
+                  "knowledge": 0.01639344262295082
                 },
                 {
                   "name": "Bastien Bouclet",
-                  "knowledge": 0.0017543859649122805
+                  "knowledge": 0.015625
                 },
                 {
                   "name": "teebee",
-                  "knowledge": 0.0015151515151515152
+                  "knowledge": 0.0136986301369863
                 },
                 {
                   "name": "Stephen",
-                  "knowledge": 0.0015151515151515152
+                  "knowledge": 0.013513513513513514
                 }
               ],
-              "criticality": 0.9666666666666667
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -392,22 +392,22 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.1111111111111111
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.018518518518518517
+                  "knowledge": 0.05
                 },
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.013888888888888888
+                  "knowledge": 0.038461538461538464
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.010101010101010102
+                  "knowledge": 0.029411764705882353
                 }
               ],
-              "criticality": 0.8888888888888888
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -422,7 +422,7 @@
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.025
+                  "knowledge": 0.03225806451612903
                 }
               ],
               "criticality": 0.75
@@ -436,18 +436,18 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.2
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.02857142857142857
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.02
+                  "knowledge": 0.03225806451612903
                 }
               ],
-              "criticality": 0.8
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -458,22 +458,22 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.14285714285714285
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.02040816326530612
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.009523809523809523
+                  "knowledge": 0.02
                 },
                 {
                   "name": "MILHI",
-                  "knowledge": 0.008928571428571428
+                  "knowledge": 0.0196078431372549
                 }
               ],
-              "criticality": 0.8571428571428572
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -484,14 +484,14 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.2
+                  "knowledge": 0.5
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.02
+                  "knowledge": 0.03225806451612903
                 }
               ],
-              "criticality": 0.8
+              "criticality": 0.5
             },
             {
               "type": "file",
@@ -502,75 +502,75 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.2
+                  "knowledge": 0.25
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.03333333333333333
+                  "knowledge": 0.05
                 },
                 {
                   "name": "Yassine MILHI",
-                  "knowledge": 0.02
+                  "knowledge": 0.030303030303030304
                 }
               ],
-              "criticality": 0.8
+              "criticality": 0.75
             }
           ],
-          "criticality": 0.76998556998557,
+          "criticality": 0.7045454545454546,
           "sizeInBytes": 50626,
           "number_of_changes": 80,
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.5
+              "knowledge": 0.29545454545454547
             },
             {
               "name": "ryarnyah",
-              "knowledge": 0.015873015873015872
+              "knowledge": 0.0048484848484848485
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.025
+              "knowledge": 0.020269104709332412
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.08333333333333333
+              "knowledge": 0.0300395256916996
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.0023809523809523807
+              "knowledge": 0.00202020202020202
             },
             {
               "name": "MILHI",
-              "knowledge": 0.008928571428571428
+              "knowledge": 0.0035650623885918
             },
             {
               "name": "Felix Dreissig",
-              "knowledge": 0.00196078431372549
+              "knowledge": 0.001652892561983471
             },
             {
               "name": "vgivanov",
-              "knowledge": 0.0017543859649122805
+              "knowledge": 0.0014903129657228018
             },
             {
               "name": "Bastien Bouclet",
-              "knowledge": 0.0017543859649122805
+              "knowledge": 0.0014204545454545455
             },
             {
               "name": "teebee",
-              "knowledge": 0.0015151515151515152
+              "knowledge": 0.0012453300124533001
             },
             {
               "name": "Stephen",
-              "knowledge": 0.0015151515151515152
+              "knowledge": 0.0012285012285012285
             },
             {
               "name": "Pierre MORVAN",
-              "knowledge": 0.013888888888888888
+              "knowledge": 0.0034965034965034965
             },
             {
               "name": "Yassine MILHI",
-              "knowledge": 0.02
+              "knowledge": 0.0027548209366391185
             }
           ]
         },
@@ -583,46 +583,46 @@
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.020833333333333332
+              "knowledge": 0.25
             },
             {
               "name": "Pierre MORVAN",
-              "knowledge": 0.004166666666666667
+              "knowledge": 0.07142857142857142
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.003472222222222222
+              "knowledge": 0.05
             },
             {
               "name": "ryarnyah",
-              "knowledge": 0.0023148148148148147
+              "knowledge": 0.03333333333333333
             },
             {
               "name": "Yassine MILHI",
-              "knowledge": 0.0020833333333333333
+              "knowledge": 0.030303030303030304
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.001893939393939394
+              "knowledge": 0.029411764705882353
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.001388888888888889
+              "knowledge": 0.02040816326530612
             },
             {
               "name": "MILHI",
-              "knowledge": 0.0013020833333333333
+              "knowledge": 0.0196078431372549
             },
             {
               "name": "Bastien Bouclet",
-              "knowledge": 0.0010964912280701754
+              "knowledge": 0.015625
             },
             {
               "name": "Stephen",
-              "knowledge": 0.000946969696969697
+              "knowledge": 0.013513513513513514
             }
           ],
-          "criticality": 0.9791666666666666
+          "criticality": 0.75
         },
         {
           "type": "file",
@@ -633,22 +633,22 @@
           "contributors": [
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.022727272727272728
+              "knowledge": 0.02702702702702703
             },
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.020833333333333332
+              "knowledge": 0.025
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.011904761904761904
+              "knowledge": 0.014925373134328358
             },
             {
               "name": "Stephen",
-              "knowledge": 0.010869565217391304
+              "knowledge": 0.013333333333333334
             }
           ],
-          "criticality": 0.9772727272727273
+          "criticality": 0.972972972972973
         },
         {
           "type": "folder",
@@ -667,10 +667,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.14285714285714285
+                      "knowledge": 0.043478260869565216
                     }
                   ],
-                  "criticality": 0.8571428571428572
+                  "criticality": 0.9565217391304348
                 },
                 {
                   "type": "file",
@@ -681,10 +681,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.14285714285714285
+                      "knowledge": 0.043478260869565216
                     }
                   ],
-                  "criticality": 0.8571428571428572
+                  "criticality": 0.9565217391304348
                 },
                 {
                   "type": "file",
@@ -695,19 +695,19 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.14285714285714285
+                      "knowledge": 0.043478260869565216
                     }
                   ],
-                  "criticality": 0.8571428571428572
+                  "criticality": 0.9565217391304348
                 }
               ],
-              "criticality": 0.8571428571428572,
+              "criticality": 0.9565217391304349,
               "sizeInBytes": 3769,
               "number_of_changes": 3,
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.14285714285714285
+                  "knowledge": 0.043478260869565216
                 }
               ]
             },
@@ -724,10 +724,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 },
                 {
                   "type": "file",
@@ -738,19 +738,19 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 }
               ],
-              "criticality": 0.9166666666666666,
+              "criticality": 0.975,
               "sizeInBytes": 1903,
               "number_of_changes": 2,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.025
                 }
               ]
             },
@@ -767,10 +767,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 },
                 {
                   "type": "file",
@@ -781,19 +781,19 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 }
               ],
-              "criticality": 0.9166666666666666,
+              "criticality": 0.975,
               "sizeInBytes": 1532,
               "number_of_changes": 2,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.025
                 }
               ]
             },
@@ -810,10 +810,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 },
                 {
                   "type": "file",
@@ -824,10 +824,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 },
                 {
                   "type": "file",
@@ -838,19 +838,19 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 }
               ],
-              "criticality": 0.8333333333333334,
+              "criticality": 0.9499999999999998,
               "sizeInBytes": 2739,
               "number_of_changes": 3,
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.16666666666666666
+                  "knowledge": 0.05000000000000001
                 }
               ]
             },
@@ -867,10 +867,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 },
                 {
                   "type": "file",
@@ -881,19 +881,19 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 }
               ],
-              "criticality": 0.9166666666666666,
+              "criticality": 0.975,
               "sizeInBytes": 1196,
               "number_of_changes": 2,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.025
                 }
               ]
             },
@@ -924,10 +924,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.09090909090909091
+                      "knowledge": 0.02702702702702703
                     }
                   ],
-                  "criticality": 0.9090909090909091
+                  "criticality": 0.972972972972973
                 },
                 {
                   "type": "file",
@@ -938,10 +938,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.09090909090909091
+                      "knowledge": 0.02702702702702703
                     }
                   ],
-                  "criticality": 0.9090909090909091
+                  "criticality": 0.972972972972973
                 },
                 {
                   "type": "file",
@@ -952,19 +952,19 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.09090909090909091
+                      "knowledge": 0.02702702702702703
                     }
                   ],
-                  "criticality": 0.9090909090909091
+                  "criticality": 0.972972972972973
                 }
               ],
-              "criticality": 0.9090909090909091,
+              "criticality": 0.9729729729729731,
               "sizeInBytes": 2215,
               "number_of_changes": 3,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.09090909090909091
+                  "knowledge": 0.02702702702702703
                 }
               ]
             },
@@ -981,10 +981,10 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 },
                 {
                   "type": "file",
@@ -995,19 +995,19 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.025
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.975
                 }
               ],
-              "criticality": 0.9166666666666666,
+              "criticality": 0.975,
               "sizeInBytes": 1495,
               "number_of_changes": 2,
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.025
                 }
               ]
             },
@@ -1020,14 +1020,14 @@
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.05
                 },
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.041666666666666664
+                  "knowledge": 0.025
                 }
               ],
-              "criticality": 0.9166666666666666
+              "criticality": 0.95
             },
             {
               "type": "file",
@@ -1038,23 +1038,23 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.025
                 }
               ],
-              "criticality": 0.9166666666666666
+              "criticality": 0.975
             }
           ],
-          "criticality": 0.889935064935065,
+          "criticality": 0.959840873482178,
           "sizeInBytes": 16296,
           "number_of_changes": 23,
           "contributors": [
             {
               "name": "Simone Aiello",
-              "knowledge": 0.16666666666666666
+              "knowledge": 0.016521739130434785
             },
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.16666666666666666
+              "knowledge": 0.02488738738738739
             }
           ]
         },
@@ -1071,10 +1071,10 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.2
+                  "knowledge": 0.06666666666666667
                 }
               ],
-              "criticality": 0.8
+              "criticality": 0.9333333333333333
             },
             {
               "type": "file",
@@ -1085,18 +1085,18 @@
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.02857142857142857
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.01818181818181818
+                  "knowledge": 0.02702702702702703
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.016666666666666666
+                  "knowledge": 0.02631578947368421
                 }
               ],
-              "criticality": 0.9714285714285714
+              "criticality": 0.9565217391304348
             },
             {
               "type": "file",
@@ -1107,42 +1107,42 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.013513513513513514
+                  "knowledge": 0.16666666666666666
                 },
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.009009009009009009
+                  "knowledge": 0.125
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.0045045045045045045
+                  "knowledge": 0.05
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.003003003003003003
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.002702702702702703
+                  "knowledge": 0.03225806451612903
                 },
                 {
                   "name": "Yassine MILHI",
-                  "knowledge": 0.002702702702702703
+                  "knowledge": 0.030303030303030304
                 },
                 {
                   "name": "sandrejevs",
-                  "knowledge": 0.002457002457002457
+                  "knowledge": 0.02857142857142857
                 },
                 {
                   "name": "Stephen SORRIAUX",
-                  "knowledge": 0.0019305019305019303
+                  "knowledge": 0.022222222222222223
                 },
                 {
                   "name": "MILHI",
-                  "knowledge": 0.0016891891891891893
+                  "knowledge": 0.0196078431372549
                 }
               ],
-              "criticality": 0.9864864864864865
+              "criticality": 0.8333333333333334
             },
             {
               "type": "file",
@@ -1153,14 +1153,14 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.038461538461538464
+                  "knowledge": 0.023255813953488372
                 },
                 {
                   "name": "MILHI",
-                  "knowledge": 0.03125
+                  "knowledge": 0.0196078431372549
                 }
               ],
-              "criticality": 0.9615384615384616
+              "criticality": 0.9767441860465116
             },
             {
               "type": "file",
@@ -1171,10 +1171,10 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 1.0
+                  "knowledge": 0.25
                 }
               ],
-              "criticality": 0.0
+              "criticality": 0.75
             },
             {
               "type": "file",
@@ -1185,18 +1185,18 @@
               "contributors": [
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.04
+                  "knowledge": 0.07142857142857142
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.02222222222222222
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.01818181818181818
+                  "knowledge": 0.02702702702702703
                 }
               ],
-              "criticality": 0.96
+              "criticality": 0.9285714285714286
             },
             {
               "type": "file",
@@ -1207,10 +1207,10 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.07692307692307693
+                  "knowledge": 0.023255813953488372
                 }
               ],
-              "criticality": 0.9230769230769231
+              "criticality": 0.9767441860465116
             },
             {
               "type": "file",
@@ -1221,18 +1221,18 @@
               "contributors": [
                 {
                   "name": "Stephen SORRIAUX",
-                  "knowledge": 0.023809523809523808
-                },
-                {
-                  "name": "ryarnyah",
                   "knowledge": 0.022222222222222223
                 },
                 {
+                  "name": "ryarnyah",
+                  "knowledge": 0.02
+                },
+                {
                   "name": "MILHI",
-                  "knowledge": 0.020833333333333332
+                  "knowledge": 0.0196078431372549
                 }
               ],
-              "criticality": 0.9761904761904762
+              "criticality": 0.9777777777777777
             },
             {
               "type": "file",
@@ -1243,10 +1243,10 @@
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.16666666666666666
+                  "knowledge": 0.05
                 }
               ],
-              "criticality": 0.8333333333333334
+              "criticality": 0.95
             },
             {
               "type": "file",
@@ -1257,22 +1257,22 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.16666666666666666
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.027777777777777776
+                  "knowledge": 0.05
                 },
                 {
                   "name": "Yassine MILHI",
-                  "knowledge": 0.016666666666666666
+                  "knowledge": 0.030303030303030304
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.015151515151515152
+                  "knowledge": 0.02702702702702703
                 }
               ],
-              "criticality": 0.9166666666666666
+              "criticality": 0.8333333333333334
             },
             {
               "type": "file",
@@ -1283,34 +1283,34 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.03125
+                  "knowledge": 0.16666666666666666
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.008928571428571428
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.006944444444444444
+                  "knowledge": 0.03571428571428571
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.006944444444444444
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.00625
+                  "knowledge": 0.03225806451612903
                 },
                 {
                   "name": "Thomas Buchholz",
-                  "knowledge": 0.005681818181818182
+                  "knowledge": 0.02702702702702703
                 },
                 {
                   "name": "Laurent Oliva",
-                  "knowledge": 0.004807692307692308
+                  "knowledge": 0.023809523809523808
                 }
               ],
-              "criticality": 0.96875
+              "criticality": 0.8333333333333334
             },
             {
               "type": "file",
@@ -1321,14 +1321,14 @@
               "contributors": [
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.05
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.05
                 }
               ],
-              "criticality": 0.9166666666666666
+              "criticality": 0.95
             },
             {
               "type": "file",
@@ -1339,18 +1339,18 @@
               "contributors": [
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.02
+                  "knowledge": 0.06666666666666667
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.01111111111111111
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.008333333333333333
+                  "knowledge": 0.02631578947368421
                 }
               ],
-              "criticality": 0.98
+              "criticality": 0.9333333333333333
             },
             {
               "type": "file",
@@ -1361,79 +1361,79 @@
               "contributors": [
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.027777777777777776
+                  "knowledge": 0.07692307692307693
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.015873015873015872
+                  "knowledge": 0.043478260869565216
                 },
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.012345679012345678
+                  "knowledge": 0.034482758620689655
                 },
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.012345679012345678
+                  "knowledge": 0.03333333333333333
                 },
                 {
                   "name": "sandrejevs",
-                  "knowledge": 0.010101010101010102
+                  "knowledge": 0.027777777777777776
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.009259259259259259
+                  "knowledge": 0.02631578947368421
                 }
               ],
-              "criticality": 0.9722222222222222
+              "criticality": 0.9230769230769231
             }
           ],
-          "criticality": 0.8690257005435577,
+          "criticality": 0.9111502076654467,
           "sizeInBytes": 143941,
           "number_of_changes": 99,
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 1.0
+              "knowledge": 0.07081105334914477
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.16666666666666666
+              "knowledge": 0.023602484472049687
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.01818181818181818
+              "knowledge": 0.014108396536240339
             },
             {
               "name": "Pierre MORVAN",
-              "knowledge": 0.08333333333333333
+              "knowledge": 0.02564756671899529
             },
             {
               "name": "ryarnyah",
-              "knowledge": 0.022222222222222223
+              "knowledge": 0.013333333333333332
             },
             {
               "name": "Yassine MILHI",
-              "knowledge": 0.016666666666666666
+              "knowledge": 0.004329004329004329
             },
             {
               "name": "sandrejevs",
-              "knowledge": 0.010101010101010102
+              "knowledge": 0.004024943310657596
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.023809523809523808
+              "knowledge": 0.0031746031746031746
             },
             {
               "name": "MILHI",
-              "knowledge": 0.03125
+              "knowledge": 0.004201680672268907
             },
             {
               "name": "Thomas Buchholz",
-              "knowledge": 0.005681818181818182
+              "knowledge": 0.0019305019305019305
             },
             {
               "name": "Laurent Oliva",
-              "knowledge": 0.004807692307692308
+              "knowledge": 0.0017006802721088435
             }
           ]
         },
@@ -1446,14 +1446,14 @@
           "contributors": [
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.1
+              "knowledge": 0.06666666666666667
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.045454545454545456
+              "knowledge": 0.02702702702702703
             }
           ],
-          "criticality": 0.9
+          "criticality": 0.9333333333333333
         },
         {
           "type": "folder",
@@ -1472,10 +1472,10 @@
                   "contributors": [
                     {
                       "name": "ryarnyah",
-                      "knowledge": 0.045454545454545456
+                      "knowledge": 0.0136986301369863
                     }
                   ],
-                  "criticality": 0.9545454545454546
+                  "criticality": 0.9863013698630136
                 },
                 {
                   "type": "file",
@@ -1486,30 +1486,30 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.045454545454545456
+                      "knowledge": 0.3333333333333333
                     },
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.004545454545454546
+                      "knowledge": 0.03225806451612903
                     },
                     {
                       "name": "Yassine MILHI",
-                      "knowledge": 0.004545454545454546
+                      "knowledge": 0.030303030303030304
                     },
                     {
                       "name": "Stephen SORRIAUX",
-                      "knowledge": 0.0030303030303030303
+                      "knowledge": 0.02040816326530612
                     },
                     {
                       "name": "Bastien Bouclet",
-                      "knowledge": 0.0023923444976076554
+                      "knowledge": 0.015625
                     },
                     {
                       "name": "ryarnyah",
-                      "knowledge": 0.002066115702479339
+                      "knowledge": 0.0136986301369863
                     }
                   ],
-                  "criticality": 0.9545454545454546
+                  "criticality": 0.6666666666666667
                 },
                 {
                   "type": "folder",
@@ -1524,26 +1524,26 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.043478260869565216
+                          "knowledge": 0.25
                         },
                         {
                           "name": "Simone Aiello",
-                          "knowledge": 0.006211180124223602
+                          "knowledge": 0.043478260869565216
                         },
                         {
                           "name": "ryarnyah",
-                          "knowledge": 0.004830917874396135
+                          "knowledge": 0.03333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.004347826086956522
+                          "knowledge": 0.03225806451612903
                         },
                         {
                           "name": "Yassine MILHI",
-                          "knowledge": 0.004347826086956522
+                          "knowledge": 0.030303030303030304
                         }
                       ],
-                      "criticality": 0.9565217391304348
+                      "criticality": 0.75
                     },
                     {
                       "type": "file",
@@ -1554,10 +1554,10 @@
                       "contributors": [
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.030303030303030304
+                          "knowledge": 0.02702702702702703
                         }
                       ],
-                      "criticality": 0.9696969696969697
+                      "criticality": 0.972972972972973
                     },
                     {
                       "type": "file",
@@ -1568,10 +1568,10 @@
                       "contributors": [
                         {
                           "name": "Stephen SORRIAUX",
-                          "knowledge": 0.047619047619047616
+                          "knowledge": 0.014925373134328358
                         }
                       ],
-                      "criticality": 0.9523809523809523
+                      "criticality": 0.9850746268656716
                     },
                     {
                       "type": "file",
@@ -1582,22 +1582,22 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.015384615384615385
+                          "knowledge": 0.06666666666666667
                         },
                         {
                           "name": "Pierre MORVAN",
-                          "knowledge": 0.008547008547008546
+                          "knowledge": 0.03571428571428571
                         },
                         {
                           "name": "ryarnyah",
-                          "knowledge": 0.008547008547008546
+                          "knowledge": 0.03333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.00641025641025641
+                          "knowledge": 0.02631578947368421
                         }
                       ],
-                      "criticality": 0.9846153846153847
+                      "criticality": 0.9333333333333333
                     },
                     {
                       "type": "file",
@@ -1608,10 +1608,10 @@
                       "contributors": [
                         {
                           "name": "Yassine MILHI",
-                          "knowledge": 0.1
+                          "knowledge": 0.030303030303030304
                         }
                       ],
-                      "criticality": 0.9
+                      "criticality": 0.9696969696969697
                     },
                     {
                       "type": "file",
@@ -1622,26 +1622,26 @@
                       "contributors": [
                         {
                           "name": "Yassine MILHI",
-                          "knowledge": 0.0125
+                          "knowledge": 0.030303030303030304
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.011363636363636364
+                          "knowledge": 0.02702702702702703
                         },
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.009615384615384616
+                          "knowledge": 0.023255813953488372
                         },
                         {
                           "name": "Stephen SORRIAUX",
-                          "knowledge": 0.008928571428571428
+                          "knowledge": 0.022222222222222223
                         },
                         {
                           "name": "Bastien Bouclet",
-                          "knowledge": 0.006578947368421052
+                          "knowledge": 0.015625
                         }
                       ],
-                      "criticality": 0.9875
+                      "criticality": 0.9696969696969697
                     },
                     {
                       "type": "file",
@@ -1652,30 +1652,30 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.0125
+                          "knowledge": 0.06666666666666667
                         },
                         {
                           "name": "Pierre MORVAN",
-                          "knowledge": 0.006944444444444444
+                          "knowledge": 0.03571428571428571
                         },
                         {
                           "name": "ryarnyah",
-                          "knowledge": 0.00625
+                          "knowledge": 0.029411764705882353
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.005681818181818182
+                          "knowledge": 0.029411764705882353
                         },
                         {
                           "name": "Bastien Bouclet",
-                          "knowledge": 0.003289473684210526
+                          "knowledge": 0.015625
                         },
                         {
                           "name": "Stephen SORRIAUX",
-                          "knowledge": 0.002976190476190476
+                          "knowledge": 0.014925373134328358
                         }
                       ],
-                      "criticality": 0.9875
+                      "criticality": 0.9333333333333333
                     },
                     {
                       "type": "file",
@@ -1686,18 +1686,18 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.025
+                          "knowledge": 0.06666666666666667
                         },
                         {
                           "name": "Simone Aiello",
-                          "knowledge": 0.017857142857142856
+                          "knowledge": 0.043478260869565216
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.010416666666666666
+                          "knowledge": 0.02631578947368421
                         }
                       ],
-                      "criticality": 0.975
+                      "criticality": 0.9333333333333333
                     },
                     {
                       "type": "file",
@@ -1708,47 +1708,47 @@
                       "contributors": [
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.03333333333333333
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.9666666666666667
+                      "criticality": 0.967741935483871
                     }
                   ],
-                  "criticality": 0.9644313013878231,
+                  "criticality": 0.9350203860796061,
                   "sizeInBytes": 98785,
                   "number_of_changes": 76,
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.043478260869565216
+                      "knowledge": 0.052583979328165366
                     },
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.017857142857142856
+                      "knowledge": 0.00966183574879227
                     },
                     {
                       "name": "ryarnyah",
-                      "knowledge": 0.008547008547008546
+                      "knowledge": 0.010675381263616557
                     },
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.03333333333333333
+                      "knowledge": 0.022290391859951433
                     },
                     {
                       "name": "Yassine MILHI",
-                      "knowledge": 0.1
+                      "knowledge": 0.010101010101010102
                     },
                     {
                       "name": "Stephen SORRIAUX",
-                      "knowledge": 0.047619047619047616
+                      "knowledge": 0.005785885387875438
                     },
                     {
                       "name": "Pierre MORVAN",
-                      "knowledge": 0.008547008547008546
+                      "knowledge": 0.007936507936507936
                     },
                     {
                       "name": "Bastien Bouclet",
-                      "knowledge": 0.006578947368421052
+                      "knowledge": 0.003472222222222222
                     }
                   ]
                 },
@@ -1761,22 +1761,22 @@
                   "contributors": [
                     {
                       "name": "Pierre MORVAN",
-                      "knowledge": 0.08333333333333333
+                      "knowledge": 0.125
                     },
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.05
+                      "knowledge": 0.06666666666666667
                     },
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.022727272727272728
+                      "knowledge": 0.027777777777777776
                     },
                     {
                       "name": "ryarnyah",
-                      "knowledge": 0.011363636363636364
+                      "knowledge": 0.0136986301369863
                     }
                   ],
-                  "criticality": 0.9166666666666666
+                  "criticality": 0.875
                 },
                 {
                   "type": "file",
@@ -1787,10 +1787,10 @@
                   "contributors": [
                     {
                       "name": "Bastien Bouclet",
-                      "knowledge": 0.05263157894736842
+                      "knowledge": 0.015625
                     }
                   ],
-                  "criticality": 0.9473684210526316
+                  "criticality": 0.984375
                 },
                 {
                   "type": "file",
@@ -1801,10 +1801,10 @@
                   "contributors": [
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.07692307692307693
+                      "knowledge": 0.024390243902439025
                     }
                   ],
-                  "criticality": 0.9230769230769231
+                  "criticality": 0.975609756097561
                 },
                 {
                   "type": "folder",
@@ -1823,14 +1823,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.2
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.02
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1841,14 +1841,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1859,27 +1859,27 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.8222222222222223,
+                      "criticality": 0.6666666666666666,
                       "sizeInBytes": 4214,
                       "number_of_changes": 17,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.2
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.02
+                          "knowledge": 0.03225806451612903
                         }
                       ]
                     },
@@ -1896,14 +1896,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1914,14 +1914,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1932,14 +1932,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1950,14 +1950,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1968,14 +1968,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -1986,27 +1986,27 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8333333333333334
+                          "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.8373015873015873,
+                      "criticality": 0.6666666666666669,
                       "sizeInBytes": 20288,
                       "number_of_changes": 37,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.16666666666666666
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.016666666666666666
+                          "knowledge": 0.03225806451612903
                         }
                       ]
                     },
@@ -2019,14 +2019,14 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.014285714285714287
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.8571428571428572
+                      "criticality": 0.6666666666666667
                     },
                     {
                       "type": "folder",
@@ -2041,14 +2041,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2059,10 +2059,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         },
                         {
                           "type": "file",
@@ -2073,14 +2073,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "folder",
@@ -2095,27 +2095,27 @@
                               "contributors": [
                                 {
                                   "name": "Stephen Sorriaux",
-                                  "knowledge": 0.14285714285714285
+                                  "knowledge": 0.3333333333333333
                                 },
                                 {
                                   "name": "Ryar Nyah",
-                                  "knowledge": 0.014285714285714287
+                                  "knowledge": 0.03225806451612903
                                 }
                               ],
-                              "criticality": 0.8571428571428572
+                              "criticality": 0.6666666666666667
                             }
                           ],
-                          "criticality": 0.8571428571428572,
+                          "criticality": 0.6666666666666667,
                           "sizeInBytes": 1346,
                           "number_of_changes": 7,
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ]
                         },
@@ -2128,14 +2128,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2146,10 +2146,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         },
                         {
                           "type": "file",
@@ -2160,10 +2160,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         },
                         {
                           "type": "file",
@@ -2174,23 +2174,23 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         }
                       ],
-                      "criticality": 0.8831168831168832,
+                      "criticality": 0.8186274509803922,
                       "sizeInBytes": 4551,
                       "number_of_changes": 32,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.16666666666666666
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.09090909090909091
+                          "knowledge": 0.030834914611005695
                         }
                       ]
                     },
@@ -2203,14 +2203,14 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.16666666666666666
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.016666666666666666
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.8333333333333334
+                      "criticality": 0.6666666666666667
                     },
                     {
                       "type": "folder",
@@ -2225,14 +2225,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2243,14 +2243,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2261,27 +2261,27 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.8571428571428572,
+                      "criticality": 0.6666666666666666,
                       "sizeInBytes": 4332,
                       "number_of_changes": 21,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.014285714285714287
+                          "knowledge": 0.03225806451612903
                         }
                       ]
                     },
@@ -2294,14 +2294,14 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.014285714285714287
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.8571428571428572
+                      "criticality": 0.6666666666666667
                     },
                     {
                       "type": "file",
@@ -2312,14 +2312,14 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.014285714285714287
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.8571428571428572
+                      "criticality": 0.6666666666666667
                     },
                     {
                       "type": "folder",
@@ -2334,14 +2334,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2352,10 +2352,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.05
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.95
+                          "criticality": 0.967741935483871
                         },
                         {
                           "type": "file",
@@ -2366,14 +2366,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2384,14 +2384,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "folder",
@@ -2406,14 +2406,14 @@
                               "contributors": [
                                 {
                                   "name": "Stephen Sorriaux",
-                                  "knowledge": 0.14285714285714285
+                                  "knowledge": 0.3333333333333333
                                 },
                                 {
                                   "name": "Ryar Nyah",
-                                  "knowledge": 0.014285714285714287
+                                  "knowledge": 0.03225806451612903
                                 }
                               ],
-                              "criticality": 0.8571428571428572
+                              "criticality": 0.6666666666666667
                             },
                             {
                               "type": "file",
@@ -2424,14 +2424,14 @@
                               "contributors": [
                                 {
                                   "name": "Stephen Sorriaux",
-                                  "knowledge": 0.14285714285714285
+                                  "knowledge": 0.3333333333333333
                                 },
                                 {
                                   "name": "Ryar Nyah",
-                                  "knowledge": 0.014285714285714287
+                                  "knowledge": 0.03225806451612903
                                 }
                               ],
-                              "criticality": 0.8571428571428572
+                              "criticality": 0.6666666666666667
                             },
                             {
                               "type": "file",
@@ -2442,27 +2442,27 @@
                               "contributors": [
                                 {
                                   "name": "Stephen Sorriaux",
-                                  "knowledge": 0.16666666666666666
+                                  "knowledge": 0.3333333333333333
                                 },
                                 {
                                   "name": "Ryar Nyah",
-                                  "knowledge": 0.016666666666666666
+                                  "knowledge": 0.03225806451612903
                                 }
                               ],
-                              "criticality": 0.8333333333333334
+                              "criticality": 0.6666666666666667
                             }
                           ],
-                          "criticality": 0.8492063492063493,
+                          "criticality": 0.6666666666666666,
                           "sizeInBytes": 4031,
                           "number_of_changes": 20,
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.16666666666666666
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.016666666666666666
+                              "knowledge": 0.03225806451612903
                             }
                           ]
                         },
@@ -2475,14 +2475,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2493,10 +2493,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         },
                         {
                           "type": "file",
@@ -2507,14 +2507,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2525,10 +2525,10 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.05
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.95
+                          "criticality": 0.967741935483871
                         },
                         {
                           "type": "file",
@@ -2539,23 +2539,23 @@
                           "contributors": [
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.09090909090909091
+                              "knowledge": 0.029411764705882353
                             }
                           ],
-                          "criticality": 0.9090909090909091
+                          "criticality": 0.9705882352941176
                         }
                       ],
-                      "criticality": 0.8792929292929292,
+                      "criticality": 0.7674994729074426,
                       "sizeInBytes": 8604,
                       "number_of_changes": 61,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.16666666666666666
+                          "knowledge": 0.22222222222222224
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.09090909090909091
+                          "knowledge": 0.031783681214421246
                         }
                       ]
                     },
@@ -2572,14 +2572,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2590,14 +2590,14 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         },
                         {
                           "type": "file",
@@ -2608,27 +2608,27 @@
                           "contributors": [
                             {
                               "name": "Stephen Sorriaux",
-                              "knowledge": 0.14285714285714285
+                              "knowledge": 0.3333333333333333
                             },
                             {
                               "name": "Ryar Nyah",
-                              "knowledge": 0.014285714285714287
+                              "knowledge": 0.03225806451612903
                             }
                           ],
-                          "criticality": 0.8571428571428572
+                          "criticality": 0.6666666666666667
                         }
                       ],
-                      "criticality": 0.8571428571428572,
+                      "criticality": 0.6666666666666666,
                       "sizeInBytes": 3897,
                       "number_of_changes": 21,
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.14285714285714285
+                          "knowledge": 0.3333333333333333
                         },
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.014285714285714287
+                          "knowledge": 0.03225806451612903
                         }
                       ]
                     },
@@ -2641,10 +2641,10 @@
                       "contributors": [
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.09090909090909091
+                          "knowledge": 0.029411764705882353
                         }
                       ],
-                      "criticality": 0.9090909090909091
+                      "criticality": 0.9705882352941176
                     },
                     {
                       "type": "file",
@@ -2655,23 +2655,23 @@
                       "contributors": [
                         {
                           "name": "Ryar Nyah",
-                          "knowledge": 0.05
+                          "knowledge": 0.03225806451612903
                         }
                       ],
-                      "criticality": 0.95
+                      "criticality": 0.967741935483871
                     }
                   ],
-                  "criticality": 0.8661862527716186,
+                  "criticality": 0.7405856126872465,
                   "sizeInBytes": 71627,
                   "number_of_changes": 219,
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.2
+                      "knowledge": 0.25203252032520324
                     },
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.09090909090909091
+                      "knowledge": 0.031772110889989345
                     }
                   ]
                 },
@@ -2684,47 +2684,47 @@
                   "contributors": [
                     {
                       "name": "Ryar Nyah",
-                      "knowledge": 0.1
+                      "knowledge": 0.03225806451612903
                     }
                   ],
-                  "criticality": 0.9
+                  "criticality": 0.967741935483871
                 }
               ],
-              "criticality": 0.8891021606431054,
+              "criticality": 0.7899087200536549,
               "sizeInBytes": 189210,
               "number_of_changes": 325,
               "contributors": [
                 {
                   "name": "ryarnyah",
-                  "knowledge": 0.045454545454545456
+                  "knowledge": 0.0024495414604197843
                 },
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.2
+                  "knowledge": 0.2001176633444075
                 },
                 {
                   "name": "Ryar Nyah",
-                  "knowledge": 0.1
+                  "knowledge": 0.02892775399895716
                 },
                 {
                   "name": "Yassine MILHI",
-                  "knowledge": 0.1
+                  "knowledge": 0.0021645021645021645
                 },
                 {
                   "name": "Stephen SORRIAUX",
-                  "knowledge": 0.047619047619047616
+                  "knowledge": 0.0012943059242175904
                 },
                 {
                   "name": "Bastien Bouclet",
-                  "knowledge": 0.05263157894736842
+                  "knowledge": 0.0011160714285714285
                 },
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.017857142857142856
+                  "knowledge": 0.0015527950310559005
                 },
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.08333333333333333
+                  "knowledge": 0.00350765306122449
                 }
               ]
             },
@@ -2741,10 +2741,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 },
                 {
                   "type": "file",
@@ -2755,14 +2755,14 @@
                   "contributors": [
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.3333333333333333
+                      "knowledge": 0.25
                     },
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.05555555555555555
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.6666666666666667
+                  "criticality": 0.75
                 },
                 {
                   "type": "folder",
@@ -2777,10 +2777,10 @@
                       "contributors": [
                         {
                           "name": "Simone Aiello",
-                          "knowledge": 0.16666666666666666
+                          "knowledge": 0.05
                         }
                       ],
-                      "criticality": 0.8333333333333334
+                      "criticality": 0.95
                     },
                     {
                       "type": "file",
@@ -2791,27 +2791,27 @@
                       "contributors": [
                         {
                           "name": "Stephen Sorriaux",
-                          "knowledge": 0.5
+                          "knowledge": 0.25
                         },
                         {
                           "name": "Simone Aiello",
-                          "knowledge": 0.08333333333333333
+                          "knowledge": 0.05
                         }
                       ],
-                      "criticality": 0.5
+                      "criticality": 0.75
                     }
                   ],
-                  "criticality": 0.6666666666666667,
+                  "criticality": 0.85,
                   "sizeInBytes": 4471,
                   "number_of_changes": 3,
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     },
                     {
                       "name": "Stephen Sorriaux",
-                      "knowledge": 0.5
+                      "knowledge": 0.125
                     }
                   ]
                 },
@@ -2824,7 +2824,7 @@
                   "contributors": [
                     {
                       "name": "Pierre MORVAN",
-                      "knowledge": 0.1111111111111111
+                      "knowledge": 0.125
                     },
                     {
                       "name": "Stephen Sorriaux",
@@ -2832,10 +2832,10 @@
                     },
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.05555555555555555
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8888888888888888
+                  "criticality": 0.875
                 },
                 {
                   "type": "file",
@@ -2846,10 +2846,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 },
                 {
                   "type": "file",
@@ -2860,10 +2860,10 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 },
                 {
                   "type": "folder",
@@ -2958,141 +2958,141 @@
                   "contributors": [
                     {
                       "name": "Simone Aiello",
-                      "knowledge": 0.16666666666666666
+                      "knowledge": 0.05
                     }
                   ],
-                  "criticality": 0.8333333333333334
+                  "criticality": 0.95
                 }
               ],
-              "criticality": 0.7777777777777777,
+              "criticality": 0.8906250000000001,
               "sizeInBytes": 13029,
               "number_of_changes": 13,
               "contributors": [
                 {
                   "name": "Simone Aiello",
-                  "knowledge": 0.16666666666666666
+                  "knowledge": 0.049999999999999996
                 },
                 {
                   "name": "Stephen Sorriaux",
-                  "knowledge": 0.5
+                  "knowledge": 0.07083333333333333
                 },
                 {
                   "name": "Pierre MORVAN",
-                  "knowledge": 0.1111111111111111
+                  "knowledge": 0.015625
                 }
               ]
             }
           ],
-          "criticality": 0.8751866127849395,
+          "criticality": 0.802498255046948,
           "sizeInBytes": 202239,
           "number_of_changes": 338,
           "contributors": [
             {
               "name": "ryarnyah",
-              "knowledge": 0.045454545454545456
+              "knowledge": 0.002143348777867311
             },
             {
               "name": "Stephen Sorriaux",
-              "knowledge": 0.5
+              "knowledge": 0.18395712209302323
             },
             {
               "name": "Ryar Nyah",
-              "knowledge": 0.1
+              "knowledge": 0.025311784749087515
             },
             {
               "name": "Yassine MILHI",
-              "knowledge": 0.1
+              "knowledge": 0.001893939393939394
             },
             {
               "name": "Stephen SORRIAUX",
-              "knowledge": 0.047619047619047616
+              "knowledge": 0.0011325176836903916
             },
             {
               "name": "Bastien Bouclet",
-              "knowledge": 0.05263157894736842
+              "knowledge": 0.0009765625
             },
             {
               "name": "Simone Aiello",
-              "knowledge": 0.16666666666666666
+              "knowledge": 0.0076086956521739125
             },
             {
               "name": "Pierre MORVAN",
-              "knowledge": 0.1111111111111111
+              "knowledge": 0.005022321428571428
             }
           ]
         }
       ],
-      "criticality": 0.8657680271651239,
+      "criticality": 0.8382787347218639,
       "sizeInBytes": 452209,
       "number_of_changes": 627,
       "contributors": [
         {
           "name": "Stephen SORRIAUX",
-          "knowledge": 0.047619047619047616
+          "knowledge": 0.001920375447027899
         },
         {
           "name": "Stephen Sorriaux",
-          "knowledge": 1.0
+          "knowledge": 0.14951640198056063
         },
         {
           "name": "Laurent Oliva",
-          "knowledge": 0.01098901098901099
+          "knowledge": 0.0003968253968253968
         },
         {
           "name": "Bastien Bouclet",
-          "knowledge": 0.05263157894736842
+          "knowledge": 0.0009114583333333333
         },
         {
           "name": "Stephen",
-          "knowledge": 0.014492753623188406
+          "knowledge": 0.0006696696696696698
         },
         {
           "name": "Pierre MORVAN",
-          "knowledge": 0.1111111111111111
+          "knowledge": 0.007227564102564103
         },
         {
           "name": "Simone Aiello",
-          "knowledge": 0.16666666666666666
+          "knowledge": 0.013931159420289855
         },
         {
           "name": "Yassine MILHI",
-          "knowledge": 0.1
+          "knowledge": 0.0022727272727272726
         },
         {
           "name": "Ryar Nyah",
-          "knowledge": 0.1
+          "knowledge": 0.018147497955165667
         },
         {
           "name": "dependabot[bot]",
-          "knowledge": 0.006993006993006993
+          "knowledge": 0.00022522522522522523
         },
         {
           "name": "ryarnyah",
-          "knowledge": 0.045454545454545456
+          "knowledge": 0.003420897125973677
         },
         {
           "name": "MILHI",
-          "knowledge": 0.03125
+          "knowledge": 0.000980392156862745
         },
         {
           "name": "Felix Dreissig",
-          "knowledge": 0.00196078431372549
+          "knowledge": 0.00015151515151515152
         },
         {
           "name": "vgivanov",
-          "knowledge": 0.0017543859649122805
+          "knowledge": 0.0001366120218579235
         },
         {
           "name": "teebee",
-          "knowledge": 0.0015151515151515152
+          "knowledge": 0.00011415525114155251
         },
         {
           "name": "sandrejevs",
-          "knowledge": 0.010101010101010102
+          "knowledge": 0.00046957671957671953
         },
         {
           "name": "Thomas Buchholz",
-          "knowledge": 0.005681818181818182
+          "knowledge": 0.00022522522522522523
         }
       ]
     }

@@ -21,10 +21,10 @@ def extract_author_list(commits_touching_path: list) -> list:
     for commit in commits_touching_path:
         if commit.author.name not in global_author_list:
             global_author_list.append(commit.author.name)
-        points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 100) + 1)
         if commit.author.name not in authors:
+            points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 30) + 1)
             authors[commit.author.name] = points
-    author_list = reduce(lambda al, a: [*al, {'name': a, 'knowledge': authors[a] / len(commits_touching_path)}], authors.keys(), [])
+    author_list = reduce(lambda al, a: [*al, {'name': a, 'knowledge': authors[a]}], authors.keys(), [])
     return author_list
 
 
