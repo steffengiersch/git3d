@@ -15,7 +15,7 @@ def extract_author_list(repo, relative_path) -> list:
     authors = {}
     commits_touching_path = list(repo.iter_commits(paths=relative_path))
     for commit in commits_touching_path:
-        points = 1 / (2 ** ((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days + 1))
+        points = 1 / (((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days // 7) + 1)
         authors[commit.author.name] = authors.get(commit.author.name, 0) + points
     authors_list = reduce(lambda al, a: [*al, {'author': a, 'knowledge': authors[a]}], authors.keys(), [])
     return authors_list
