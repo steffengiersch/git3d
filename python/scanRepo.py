@@ -1,5 +1,7 @@
 from git import Repo
 import os
+from datetime import datetime
+from functools import reduce
 
 
 def is_file_in_git(git, file_path: str):
@@ -7,6 +9,16 @@ def is_file_in_git(git, file_path: str):
         return git.ls_files(file_path) == file_path
     except:
         return False
+
+
+def extract_author_list(repo, relative_path) -> list:
+    authors = {}
+    commits_touching_path = list(repo.iter_commits(paths=relative_path))
+    for commit in commits_touching_path:
+        points = 1 / (2 ** ((datetime.now() - datetime.fromtimestamp(commit.committed_date)).days + 1))
+        authors[commit.author.name] = authors.get(commit.author.name, 0) + points
+    authors_list = reduce(lambda al, a: [*al, {'author': a, 'knowledge': authors[a]}], authors.keys(), [])
+    return authors_list
 
 
 def walk_through_repo(repo):
@@ -18,9 +30,8 @@ def walk_through_repo(repo):
             relative_path = os.path.relpath(str(full_path), repo_path)
             if is_file_in_git(git, relative_path):
                 print(relative_path)
-                commits_touching_path = list(repo.iter_commits(paths=relative_path))
-                for commit in commits_touching_path:
-                    print(f"{commit.hexsha}: {commit.message}")
+                author_list = extract_author_list(repo, relative_path)
+                print(author_list)
 
 
 if '__main__' == __name__:
