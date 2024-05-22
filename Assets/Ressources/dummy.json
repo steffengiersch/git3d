@@ -1,0 +1,449 @@
+{
+    "repository": {
+        "name": "My great repository",
+        "url": "https://my.great/repository.git"
+    },
+    "contributer": [
+        {
+            "id": "lorem",
+            "name": "Eckart"
+        },
+        {
+            "id": "ipsum",
+            "name": "Alice"
+        }
+    ],
+    "filetree": {
+        "type": "folder",
+        "name": "root",
+        "created": "2024-05-20",
+        "lastModified": "2024-05-22",
+        "changes": 5,
+        "sizeInByte": 2048,
+        "criticality": 0.2,
+        "contributer": [
+            {
+                "id": "lorem",
+                "knowledge": 0.5
+            },
+            {
+                "id": "ipsum",
+                "knowledge": 0.8
+            }
+        ],
+        "children": [
+            {
+                "type": "folder",
+                "name": "docs",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 2,
+                "sizeInByte": 512,
+                "criticality": 0.1,
+                "contributer": [
+                    {
+                        "id": "ipsum",
+                        "knowledge": 0.7
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "readme",
+                        "extension": "md",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 32,
+                        "criticality": 0.1,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.7
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "contributing",
+                        "extension": "md",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 20,
+                        "criticality": 0.1,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.6
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "license",
+                        "extension": "md",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 24,
+                        "criticality": 0.1,
+                        "contributer": [
+                            {
+                                "id": "lorem",
+                                "knowledge": 0.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "src",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 10,
+                "sizeInByte": 1024,
+                "criticality": 0.3,
+                "contributer": [
+                    {
+                        "id": "lorem",
+                        "knowledge": 0.5
+                    },
+                    {
+                        "id": "ipsum",
+                        "knowledge": 0.8
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "folder",
+                        "name": "components",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 5,
+                        "sizeInByte": 256,
+                        "criticality": 0.2,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.8
+                            }
+                        ],
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "header",
+                                "extension": "jsx",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 3,
+                                "sizeInByte": 64,
+                                "criticality": 0.3,
+                                "contributer": [
+                                    {
+                                        "id": "ipsum",
+                                        "knowledge": 0.7
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "footer",
+                                "extension": "jsx",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 2,
+                                "sizeInByte": 64,
+                                "criticality": 0.3,
+                                "contributer": [
+                                    {
+                                        "id": "lorem",
+                                        "knowledge": 0.6
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "sidebar",
+                                "extension": "jsx",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 4,
+                                "sizeInByte": 64,
+                                "criticality": 0.3,
+                                "contributer": [
+                                    {
+                                        "id": "ipsum",
+                                        "knowledge": 0.8
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "folder",
+                        "name": "utils",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 3,
+                        "sizeInByte": 256,
+                        "criticality": 0.2,
+                        "contributer": [
+                            {
+                                "id": "lorem",
+                                "knowledge": 0.5
+                            }
+                        ],
+                        "children": [
+                            {
+                                "type": "file",
+                                "name": "helpers",
+                                "extension": "js",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 2,
+                                "sizeInByte": 32,
+                                "criticality": 0.2,
+                                "contributer": [
+                                    {
+                                        "id": "ipsum",
+                                        "knowledge": 0.6
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "formatters",
+                                "extension": "js",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 2,
+                                "sizeInByte": 32,
+                                "criticality": 0.2,
+                                "contributer": [
+                                    {
+                                        "id": "lorem",
+                                        "knowledge": 0.5
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "file",
+                                "name": "validators",
+                                "extension": "js",
+                                "created": "2024-05-20",
+                                "lastModified": "2024-05-22",
+                                "changes": 3,
+                                "sizeInByte": 32,
+                                "criticality": 0.2,
+                                "contributer": [
+                                    {
+                                        "id": "ipsum",
+                                        "knowledge": 0.7
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "assets",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 2,
+                "sizeInByte": 256,
+                "criticality": 0.1,
+                "contributer": [
+                    {
+                        "id": "lorem",
+                        "knowledge": 0.6
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "logo",
+                        "extension": "png",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 128,
+                        "criticality": 0.1,
+                        "contributer": [
+                            {
+                                "id": "lorem",
+                                "knowledge": 0.6
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "background",
+                        "extension": "jpg",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 128,
+                        "criticality": 0.1,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "tests",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 4,
+                "sizeInByte": 512,
+                "criticality": 0.3,
+                "contributer": [
+                    {
+                        "id": "ipsum",
+                        "knowledge": 0.7
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "app.test",
+                        "extension": "js",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 2,
+                        "sizeInByte": 32,
+                        "criticality": 0.3,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.7
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "utils.test",
+                        "extension": "js",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 2,
+                        "sizeInByte": 32,
+                        "criticality": 0.3,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "config",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 3,
+                "sizeInByte": 128,
+                "criticality": 0.2,
+                "contributer": [
+                    {
+                        "id": "lorem",
+                        "knowledge": 0.5
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "app.config",
+                        "extension": "json",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 64,
+                        "criticality": 0.2,
+                        "contributer": [
+                            {
+                                "id": "lorem",
+                                "knowledge": 0.5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "db.config",
+                        "extension": "json",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 2,
+                        "sizeInByte": 64,
+                        "criticality": 0.2,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.7
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "logs",
+                "created": "2024-05-20",
+                "lastModified": "2024-05-22",
+                "changes": 1,
+                "sizeInByte": 512,
+                "criticality": 0.4,
+                "contributer": [
+                    {
+                        "id": "lorem",
+                        "knowledge": 0.4
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "app.log",
+                        "extension": "txt",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 256,
+                        "criticality": 0.4,
+                        "contributer": [
+                            {
+                                "id": "lorem",
+                                "knowledge": 0.4
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "error.log",
+                        "extension": "txt",
+                        "created": "2024-05-20",
+                        "lastModified": "2024-05-22",
+                        "changes": 1,
+                        "sizeInByte": 256,
+                        "criticality": 0.4,
+                        "contributer": [
+                            {
+                                "id": "ipsum",
+                                "knowledge": 0.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
