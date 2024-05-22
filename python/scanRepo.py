@@ -18,6 +18,9 @@ def walk_through_repo(repo):
             relative_path = os.path.relpath(str(full_path), repo_path)
             if is_file_in_git(git, relative_path):
                 print(relative_path)
+                commits_touching_path = list(repo.iter_commits(paths=relative_path))
+                for commit in commits_touching_path:
+                    print(f"{commit.hexsha}: {commit.message}")
 
 
 if '__main__' == __name__:
